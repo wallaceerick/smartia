@@ -17,100 +17,37 @@
 		<link rel="stylesheet" href="assets/css/style.css" media="all" />
 		<script type="text/javascript" src="assets/js/application.min.js"></script>
 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
 		<!--[if IE 8]>
 			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
 		<![endif]-->
+		
+		<!-- Typekit -->
+		<script type="text/javascript" src="//use.typekit.net/sxe8qvx.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script>
+			var WAIT_FONTS_INTERVAL = 10;
+			var WAIT_FONTS_TIMEOUT = 10000;
+			var WAIT_TIME = 0; 
+			function waitFonts() {
+				WAIT_TIME += WAIT_FONTS_INTERVAL;
+				var html = document.getElementsByTagName('html')[0];
+				if (html.className.indexOf('wf-active') > -1 || WAIT_TIME > WAIT_FONTS_TIMEOUT) {
+					html.className = html.className.replace(/\bwaitfonts\b/,'');
+				} else {
+					window.setTimeout(waitFonts, WAIT_FONTS_INTERVAL);
+				}
+			}
+			waitFonts();
+		</script>
 		
 	</head>
 	
 	<body> 
 		
 		<div class="header-wrapper" style="height: 123px;">
-			<header class="cabecalho affix-top" data-spy="affix" data-offset-top="350">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 col-sm-12 col-xs-12">
-							<img class="logo" src="assets/images/common/logo.png" alt="Smartia - seguros online">
-							<img class="logo compacto" src="assets/images/common/logo-compacto.png" alt="Smartia - seguros online">
-							<nav class="atalhos">
-								<ul class="nav nav-pills">
-									<li class="blog"><a href="blog"><b class="sprite-header blog-icon"></b>Blog</a></li>
-									<li class="app-mobile"><a href="?sl=v3&debug=true#"><b class="sprite-header mobile-icon"></b>App Mobile</a></li>
-									<li class="chat-online"><a href="?sl=v3&debug=true#"><b class="sprite-header chat-icon"></b>Chat</a></li>
-									<li class="atalho-atendimento"><a id="atendimentoSmartia" role="button" data-toggle="modal" href="?sl=v3&debug=true#modalAtendimento"><span class="texto"><b class="sprite-header atend-icon"></b>&nbsp;</span> <span class="sprite-header atend-fone">0800 Smartia</span></a></li>
-								</ul>
-							</nav> 
-							<nav class="menubar">
-								<ul class="nav nav-pills menuitens">
-									<li class="dropdown menu-produtos">
-									  <a id="dropProdutos" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Produtos <b class="glyphicon glyphicon-chevron-down"></b></a>
-									  <ul id="menuProdutos" class="dropdown-menu" role="menu" aria-labelledby="dropProdutos">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Automóvel</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Motocicleta</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Caminhão</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Táxi</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Frota</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="consorcios">Consórcios / Avante.com</a></li>
-									  </ul>
-									</li>
-									<li class="dropdown menu-como-funciona">
-									  <a id="dropComoFunciona" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Como funciona <b class="glyphicon glyphicon-chevron-down"></b></a>
-									  <ul id="menuComoFunciona" class="dropdown-menu" role="menu" aria-labelledby="dropComoFunciona">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-online.html">Seguro online</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Acionando seu seguro</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Perguntas frequentes</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Dicionário de segurês</a></li>
-									  </ul>
-									</li>
-									<li class="dropdown menu-sobre-a-smartia">
-									  <a id="dropSobreASmartia" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Sobre a smartia <b class="glyphicon glyphicon-chevron-down"></b></a>
-									  <ul id="menuSobreSmartia" class="dropdown-menu" role="menu" aria-labelledby="dropSobreASmartia">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">A Smartia</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Depoimentos</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Sala de imprensa</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Smartia na mídia</a></li>
-									  </ul>
-									</li>
-									<li class="dropdown menu-contato">
-									  <a id="dropContato" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Contato <b class="glyphicon glyphicon-chevron-down"></b></a>
-									  <ul id="menuContato" class="dropdown-menu" role="menu" aria-labelledby="dropContato">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="fale-conosco">Fale conosco</a></li>
-										<li role="presentation" class="divider"></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Trabalhe conosco</a></li>
-									  </ul>
-									</li>
-									<li class="simular-agora">
-										<a class="btn btn-primary" href="seguro-auto/simulacao-preco/veiculo">Simule agora seu seguro <b class="right-caret"></b></a>
-									</li>
-									<li class="social">
-										<div class="google">
-											<g:plusone size="medium" annotation="none"></g:plusone>
-										</div>
-										<div class="facebook">
-											<div class="fb-wrapper">
-												<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="30" data-show-faces="false" data-send="false" data-action="like" data-layout="button_count" data-font="tahoma"></div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
+			<?php include('includes/header.php'); ?>
 		</div>
-
 
 		<div id="carousel" class="carousel slide">
  			<div class="container">
@@ -379,73 +316,7 @@
 			</div>
 		</div>
 		
-
-		<footer class="rodape">
-			<div class="links">
-				<div class="container">
-					<div class="row">
-						<ul class="col-md-12 col-sm-12 col-xs-12" role="presentation">
-							<li><a href="politica-de-privacidade" title="Veja a política de privacidade da Smartia">Política de privacidade</a></li>
-							<li class="divider">|</li>
-							<li><a href="termos-de-uso" title="Veja os termos de uso da Smartia">Termos de uso</a></li>
-							<li class="divider">|</li>
-							<li><a href="seguranca" title="Tudo sobre a segurança de seus dados em nosso site">Segurança</a></li>
-							<li class="divider">|</li>
-							<li><a href="mapa-do-site" title="Veja todas as áreas do site do Smartia">Mapa do site</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row imagens">
-					<div class="siga-nos col-md-4 col-sm-4 col-xs-4">
-						Siga-nos 
-						<ul class="inline">
-							<li><a href="facebook" alt="Curta nossa página do Facebook"><b class="sprite-dinamico share-facebook ir">Curta nossa página do Facebook</b></a></li> 
-							<li><a href="twitter" alt="Siga a Smartia no Twitter"><b class="sprite-dinamico share-twitter ir">Siga a Smartia no Twitter</b></a></li>
-							<li><a href="linkedin" alt="Conheça nosso perfil no LinkedIn"><b class="sprite-dinamico share-linkedin ir">Conheça nosso perfil no LinkedIn</b></a></li>
-							<li><a href="youtube" alt="Assista os vídeos da nossa página do Youtube"><b class="sprite-dinamico share-youtube ir">Assista os vídeos da nossa página do Youtube</b></a></li>
-							<li><a href="google-plus" alt="Não deixe de acessar nossa página do Google Plus"><b class="sprite-dinamico share-google-plus ir">Não deixe de acessar nossa página do Google Plus</b></a></li>
-						</ul>
-					</div>
-					<div class="site-seguro col-md-4 col-sm-4 col-xs-4 logos">
-						<div class="descricao col-md-4 col-sm-4 col-xs-4">
-							Site seguro, cotação segura:
-						</div>
-						<div class="logo col-md-3 col-sm-3 col-xs-3">
-							<a href="verisign"><b class="sprite-fixo logo-verisign ir">VeriSign</b></a>
-						</div>
-						<div class="logo col-md-3 col-sm-3 col-xs-3">
-							<a href="certisign"><b class="sprite-fixo logo-certisign ir">Site seguro - validado por CertiSign</b></a>
-						</div>
-					</div>
-					<div class="corretor col-md-4 col-sm-4 col-xs-4 logos">
-						<div class="descricao ">
-							Aqui tem corretor:
-						</div>
-						<div class="logo col-md-3 col-sm-3 col-xs-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
-							<a href="verisign"><b class="sprite-fixo logo-tem-corretor ir">VeriSign</b></a>
-						</div>
-						<div class="logo col-md-4 col-sm-4 col-xs-4">
-							<a href="certisign"><b class="sprite-fixo logo-fenacor ir">Site seguro - validado por CertiSign</b></a>
-						</div>
-						<div class="logo col-md-3 col-sm-3 col-xs-3">
-							<a href="verisign"><b class="sprite-fixo logo-sincor ir">VeriSign</b></a>
-						</div>
-					</div>
-				</div>
-				<div class="row copyrights">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<p class="copyright">
-							© Copyright 2013 Smartia. Todos os direitos reservados. SUSEP nº 100677485. CNPJ: 11.537.919/0001-35
-						</p>
-						<p class="texto-copyright">
-							A Smartia é uma holding constituída sob a forma de sociedade empresária limitada e que atua em estrita observância à legislação aplicável ao ramo de seguros, em especial o Código de Ética dos Corretores de Seguros e o Código de Defesa do Consumidor. Trata-se de uma sociedade prestadora de serviços de pesquisa, simulação e corretagem de seguros para os ramos de automóveis, saúde, vida e ramos elementares. Disponibilizamos para tanto uma plataforma segura, intuitiva e inteligente que favorece aos usuários a facilidade e agilidade para a contratação de seguros diretamente com um profissional habilitado. Todas as propostas de seguro apresentadas aos usuários são originadas de uma empresa corretora de seguros devidamente cadastrada nas seguradoras listadas pelo site. Lembre-se, "Seguro, só com o corretor de seguros".
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<?php include('includes/footer.php'); ?>
 		
 		<section class="modal fade modal-atendimento" id="modalAtendimento" tabindex="-1" role="dialog" aria-labelledby="modalAtendimentoLabel" aria-hidden="true">
 		  <div class="modal-dialog">
@@ -467,6 +338,19 @@
 			</div>
 		  </div>
 		</section>
+		
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script type="text/javascript">
+			$('.header-wrapper').height($(".header-wrapper > header").outerHeight());
+		</script>
 		
 	</body>
 </html>

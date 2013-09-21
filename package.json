@@ -1,14 +1,19 @@
 {
-  "name": "Digitaliza",
+  "name": "Smartia",
   "version": "0.0.1",
-  "title": "Website of Digitaliza",
-  "homepage": "http://www.digitaliza.com.br/",
+  "title": "Seguros On-line",
+  "homepage": "http://www.smartia.com.br/",
   "author": {
     "name": "Wallace Erick",
     "email": "wallace_erick@hotmail.com",
     "url": "http://wallaceerick.com.br"
   },
-  "description": "A base to start and deploy your project usign Grunt",
+  "author": {
+    "name": "Guilherme Ventura",
+    "email": "guilherme.ventura@outlook.com",
+    "url": "http://guilhermeventura.com.br"
+  },
+  "description": "Website para a Smartia - Seguros On-line",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-banner": "~0.1.4",
