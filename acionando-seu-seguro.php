@@ -79,7 +79,7 @@
 								</ol>
 							</li>
 							<li><span>Pergunte (e preste muita atenção) quais são os documentos que a sua seguradora exigirá para realizar a vistoria.</span></li>
-							<li><span>Anote sempre o NÚMERO do SINISTRO.</li>
+							<li><span>Anote sempre o NÚMERO do SINISTRO.</span></li>
 						</ol>
 						
 						<hr class="shadow" /> 
@@ -140,16 +140,87 @@
 							<li><a class="last" href="#">Dicionário do “Segurês”</a></li>
 						</ul>
 						<div class="aside-box">
-							<h2>Contato das Seguradoras</h2>
+							<h2 class="seguradoras">Contato das Seguradoras</h2>
 							<ul class="seguradoras">
 								<li>
 									<img src="assets/images/s-bradesco.gif" alt="Bradesco" />
 									<h3>Bradesco</h3>
-									<p>Sinistro: 4004-2757</p>
-									<p>Assistência 24 horas:</p>
-									<p>4004-2757</p>
-									<p>Atendimento ao Cliente;</p>
-									<p>0800-72 79966</p>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-liberty.gif" alt="Liberty Seguros" />
+									<h3>Liberty Seguros</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-tokio.gif" alt="Tokio Marine" />
+									<h3>Tokio Marine</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-zurich.gif" alt="Zurich" />
+									<h3>Zurich</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-allianz.gif" alt="Allianz" />
+									<h3>Allianz</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-maritima.gif" alt="Marítima Seguros" />
+									<h3>Marítima Seguros</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-bradesco.gif" alt="HDI Seguros" />
+									<h3>HDI Seguros</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
+								</li>
+								<li>
+									<img src="assets/images/s-paribas.gif" alt="BNP Paribas Cardif" />
+									<h3>BNP Paribas Cardif</h3>
+									<p>
+										<span>Sinistro: 4004-2757</span>
+										<span>Assistência 24 horas:</span> <span>4004-2757</span>
+										<span>Atendimento ao Cliente:</span> <span>0800-72 79966</span>
+									</p>
+									<a href="#">Site da Seguradora »</a>
 								</li>
 							</ul>
 						</div>

@@ -609,9 +609,61 @@ OUR STYLES
 			background-color: darken(#f6b332, 7);
 		}
 	}
+	h2.seguradoras {
+		display: block;
+		text-indent: -9999px;
+		width: 142px;
+		height: 36px;
+		margin-bottom: 10px;
+		background: image-url('seguradoras.gif') center center no-repeat;
+	}
 	ul.seguradoras {
+		padding: 0 6px;
 		li {
 			position: relative;
+			padding: 18px;
+			padding-left: 50px;
+			border-bottom: 1px dotted #e2e2e2;
+			border-top: 1px dotted #e2e2e2;
+			list-style: none;
+			&.first {
+				border-top: none;
+			}
+			&.last {
+				border-bottom: none;
+			}
+			img {
+				position: absolute;
+				top: 16px;
+				left: -10px;
+			}
+			h3 {
+				font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 700;
+				font-size: 16px;
+				color: #848689;
+				margin: 0;
+				padding: 0;
+			}
+			p {
+				font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 400;
+				color: #848689;
+				font-size: 12px;
+				line-height: 22px;
+				margin: 0;
+				padding: 0;
+				span {
+					display: block;
+				}
+			}
+			a {
+				font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 700;
+				font-size: 12px;
+				color: #f6b332;
+				text-transform: uppercase;
+			}
 		}
 	}
 }
