@@ -407,6 +407,9 @@ OUR STYLES
 	width: 70%;
 	float: left;
 	margin-bottom: 60px;
+	&.with-padding {
+		padding-top: 30px;
+	}
 	h3 {
 		font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 400;
@@ -418,6 +421,15 @@ OUR STYLES
 		font-weight: 400;
 		font-size: 13px;
 		color: #676767;
+	}
+	a {
+		@include transition(all 0.2s ease-in);
+	}
+	a.red {
+		color: #c7232d;
+		&:hover {
+			color: darken(#c7232d, 10);
+		}
 	}
 	hr.dotted { 
 		clear: both;
@@ -516,6 +528,7 @@ OUR STYLES
 	} 
 }
 .aside-links {
+	padding-top: 15px;
 	li {
 		list-style-type: none;
 		list-style: none;
@@ -531,9 +544,12 @@ OUR STYLES
 			background: image-url('left-ye.gif') 11px 17px no-repeat;
 			@include transition(all 0.2s ease-in);
 			&:hover {
-				color: #3e3e3e;
+				color: #2c2c2c;
+				background-position: 15px 17px;
 			}
 			&.active {
+				font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 700; 
 				color: #f3b030;
 			}
 			&.last {

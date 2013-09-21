@@ -28,7 +28,7 @@
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-frota.php">Seguro Frota</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="consorcios">Consórcios / Avante.com</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="consorcios-avante.php">Consórcios / Avante.com</a></li>
 								</ul>
 							</li>
 							<li class="dropdown menu-como-funciona">
