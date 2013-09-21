@@ -3,8 +3,8 @@
 		<div class="container fixed-container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
-					<img class="logo" src="assets/images/common/logo.png" alt="Smartia - seguros online">
-					<img class="logo compacto" src="assets/images/common/logo-compacto.png" alt="Smartia - seguros online">
+					<a href="index.php" title="Smartia - Seguros Online"><img class="logo" src="assets/images/common/logo.png" alt="Smartia - Seguros Online" /></a>
+					<a href="index.php" title="Smartia - Seguros Online"><img class="logo compacto" src="assets/images/common/logo-compacto.png" alt="Smartia - Seguros Online" /></a> 
 					<nav class="atalhos">
 						<ul class="nav nav-pills">
 							<li class="blog"><a href="#"><b class="sprite-header blog-icon"></b>Blog</a></li>
