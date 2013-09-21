@@ -1,3 +1,6 @@
+.header-wrapper {
+	height: 123px;
+}
 .cabecalho {
 	padding-top: 18px;
 	height: 123px;
@@ -6,6 +9,7 @@
 .cabecalho .logo {
 	float: left;
 	margin-top: -17px;
+	margin-left: -14px;
 }
 .cabecalho .logo.compacto {
 	display: none;
@@ -77,7 +81,7 @@
 	color: white;
 }
 .cabecalho .menubar .menuitens > li.social {
-	line-height: 42px;
+	line-height: 41px;
 	margin-left: 8px;
     width: 94px;
 }

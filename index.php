@@ -15,9 +15,8 @@
 		<link rel="apple-touch-icon-precomposed" href="assets/images/layout/icon-ios.png">
 		
 		<link rel="stylesheet" href="assets/css/style.css" media="all" />
-		<script type="text/javascript" src="assets/js/application.min.js"></script>
-
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
+		
 		<!--[if IE 8]>
 			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
 		<![endif]-->
@@ -43,12 +42,11 @@
 		
 	</head>
 	
-	<body> 
+	<body>
 		
-		<div class="header-wrapper" style="height: 123px;">
-			<?php include('includes/header.php'); ?>
-		</div>
+		<?php include('includes/header.php'); ?>
 
+		<!-- Carousel -->
 		<div id="carousel" class="carousel slide">
  			<div class="container">
 				<div class="row">
@@ -120,6 +118,7 @@
 				<li data-target="#carousel" data-slide-to="3"></li>
 			</ol>
 		</div>
+		
 		<div class="container">		
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
@@ -181,6 +180,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="relacionados">
 			<div class="container">
 				<div class="row">
@@ -317,40 +317,10 @@
 		</div>
 		
 		<?php include('includes/footer.php'); ?>
+		<?php include('includes/modal.php'); ?>
 		
-		<section class="modal fade modal-atendimento" id="modalAtendimento" tabindex="-1" role="dialog" aria-labelledby="modalAtendimentoLabel" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">fechar <span class="glyphicon glyphicon-remove-sign"></span></button>
-			  </div>
-			  <div class="modal-body">
-			  	<div class="inline">
-					<h1 id="modalAtendimentoLabel" class="modal-title"><i class="sprite-adicional sprite-atendente"></i><b>0800</b>Smartia</h1>
-					<p class="subtitulo">Serviço de atendimento ao consumidor</p>
-				</div>
-				<hr>
-				<p class="central">Central de atendimento</p>
-				<h2><b>0800</b> 762 7842</h2>
-				<p>Através do nosso Atendimento você pode comprar um seguro novo, fazer uma renovação ou endosso, tirar dúvidas e acionar seu seguro.</p>
-				<p class="horarios">Atendimento de segunda à sexta das 08h20 às 21h00 e sábados das 10h às 16h.</p>
-			  </div>
-			</div>
-		  </div>
-		</section>
+		<?php include('includes/scripts.php'); ?>
 		
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<script type="text/javascript">
-			$('.header-wrapper').height($(".header-wrapper > header").outerHeight());
-		</script>
 		
 	</body>
 </html>
