@@ -16,7 +16,10 @@ module.exports = function(grunt){
                         //Arquivos Inclusos 
                         'assets/js/_jquery.js',
                         'assets/js/_bootstrap.js',  
-                        'assets/js/_dropdown.js'
+                        'assets/js/_dropdown.js',  
+                        'assets/js/_select.js',  
+                        'assets/js/_maskedinput.js',  
+                        'assets/js/_custom.js'
                     ]
                 },
                 options: {

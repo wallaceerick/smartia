@@ -3,7 +3,7 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Seguro Motocicleta</title>
+		<title>Seguro Frota</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
@@ -51,9 +51,9 @@
 			<ol class="breadcrumb">
 			  <li><a href="#">Home</a></li>
 			  <li><a href="#">Produtos</a></li>
-			  <li class="active">Seguro Motocicleta</li>
+			  <li class="active">Seguro Frota</li>
 			</ol>
-			<h1>Seguro Motocicleta</h1>
+			<h1>Seguro Frota</h1>
 			<a href="#" class="big-simule-button">Simule agora seu seguro</a>
 			</div>
 		</div>
@@ -65,19 +65,26 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside">
 						<div class="product-type">
-							<img src="assets/images/icon-motocicleta.gif" alt="" />
-							<h2>Sua motocicleta precisa de seguro?</h2>
+							<img src="assets/images/icon-frota.gif" alt="" />
+							<h2>Sua frota precisa de seguro?</h2>
 							<p>Hoje em dia todo cuidado é pouco. Mas a Smartia esta aqui para te dar uma mãozinha. Preencha este formulário simples e em até 24 horas nossos atendentes entraram em contato com você para apresentar uma proposta.</p>
 						</div>
 						
 						<form action="" method="post">
 							<h3>Veículo</h3>
-							<p><strong>Qual o modelo do veículo?</strong></p>
-							<select class="customized">
-							    <option value="hide">Escolha o modelo da sua moto...</option>
-							    <option value="option-1">Option 1</option>
-							    <option value="option-2">Option 2</option>
-							</select>
+							<p><strong>Qual a quantidade de veículos que sua frota possui?</strong></p>
+							<div class="row">
+								<div class="col-md-6">
+									<select class="customized">
+									    <option value="hide">Escolha a quantidade de veículos...</option>
+									    <option value="1">1</option>
+									    <option value="2">2</option>
+									    <option value="3">3</option>
+									    <option value="4">4</option>
+									    <option value="5">5</option>
+									</select>
+								</div>
+							</div>
 							
 							<p><strong>Você já possui este veículo?</strong></p>
 							<span class="fl-2">

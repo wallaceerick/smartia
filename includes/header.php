@@ -8,7 +8,7 @@
 					<nav class="atalhos">
 						<ul class="nav nav-pills">
 							<li class="blog"><a href="#"><b class="sprite-header blog-icon"></b>Blog</a></li>
-							<li class="app-mobile"><a href="#"><b class="sprite-header mobile-icon"></b>App Mobile</a></li>
+							<li class="app-mobile"><a href="app.php"><b class="sprite-header mobile-icon"></b>App Mobile</a></li>
 							<li class="chat-online"><a href="#"><b class="sprite-header chat-icon"></b>Chat Online</a></li> 
 							<li class="atalho-atendimento"><a id="atendimentoSmartia" role="button" data-toggle="modal" href="#modalAtendimento"><span class="texto"><b class="sprite-header atend-icon"></b>Atendimento &nbsp;</span> <span class="sprite-header atend-fone">0800 Smartia</span></a></li>
 						</ul>
@@ -18,15 +18,15 @@
 							<li class="dropdown menu-produtos">
 							<a id="dropProdutos" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Produtos <b class="glyphicon glyphicon-chevron-down"></b></a>
 								<ul id="menuProdutos" class="dropdown-menu" role="menu" aria-labelledby="dropProdutos">
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Automóvel</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-automovel.php">Seguro Automóvel</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Motocicleta</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-motocicleta.php">Seguro Motocicleta</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Caminhão</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-caminhao.php">Seguro Caminhão</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Táxi</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-taxi.php">Seguro Táxi</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Seguro Frota</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-frota.php">Seguro Frota</a></li>
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="consorcios">Consórcios / Avante.com</a></li>
 								</ul>
