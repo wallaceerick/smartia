@@ -16,7 +16,7 @@
 					<nav class="menubar">
 						<ul class="nav nav-pills menuitens">
 							<li class="dropdown menu-produtos">
-							<a id="dropProdutos" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Produtos <b class="glyphicon glyphicon-chevron-down"></b></a>
+							<a id="dropProdutos" role="button" data-hover="dropdown" href="#">Produtos <b class="glyphicon glyphicon-chevron-down"></b></a>
 								<ul id="menuProdutos" class="dropdown-menu" role="menu" aria-labelledby="dropProdutos">
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-automovel.php">Seguro Automóvel</a></li>
 									<li role="presentation" class="divider"></li>
@@ -32,11 +32,11 @@
 								</ul>
 							</li>
 							<li class="dropdown menu-como-funciona">
-								<a id="dropComoFunciona" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Como funciona <b class="glyphicon glyphicon-chevron-down"></b></a>
+								<a id="dropComoFunciona" role="button" data-hover="dropdown" href="#">Como funciona <b class="glyphicon glyphicon-chevron-down"></b></a>
 								<ul id="menuComoFunciona" class="dropdown-menu" role="menu" aria-labelledby="dropComoFunciona">
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-online.html">Seguro online</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Acionando seu seguro</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="acionando-seu-seguro.php">Acionando seu seguro</a></li>
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Perguntas frequentes</a></li>
 									<li role="presentation" class="divider"></li>

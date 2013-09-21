@@ -415,7 +415,7 @@ OUR STYLES
 		font-weight: 400;
 		font-size: 24px;
 		color: #8f8d87;
-	}
+	} 
 	p {
 		font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 400;
@@ -445,6 +445,15 @@ OUR STYLES
 			width: 100%;
 			margin-left: 0;
 		}
+	}
+	hr.shadow {
+		clear: both;
+		display: block; 
+		width: 658px;
+		height: 12px; 
+		border: none; 
+		margin: 25px auto;
+		background: image-url('shadow.jpg') 0 0 no-repeat; 
 	}
 	.row.extra-padding {
 		padding-top: 10px;
@@ -600,10 +609,95 @@ OUR STYLES
 			background-color: darken(#f6b332, 7);
 		}
 	}
+	ul.seguradoras {
+		li {
+			position: relative;
+		}
+	}
 }
 
 
 
+/* Acionando seu Seguro */
+.acionando-seu-seguro {
+	h2 {
+		font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		font-size: 24px;
+		color: #f6b332;
+		margin-bottom: 15px;
+		span {
+			font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight: 400; 
+		}
+	}
+	h3, p {
+		font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		color: #848689; 
+		margin-bottom: 20px;
+	}
+	h3 {
+		line-height: 22px;
+	}
+	p {
+		font-size: 14px;
+	}
+	ol {
+		font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		font-weight: bold;
+		color: #6d6d6d; 
+		font-size: 14px;
+		list-style: lower-alpha;
+		list-style-position: inside; 
+		li { 
+			margin-bottom: 5px;
+			span {
+				font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 400;
+				color: #848689;
+			}
+			ol {
+				padding-top: 25px;
+				list-style-position: inside;
+				list-style-type: decimal;
+				li {
+					font-family: "open-sans-i3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-weight: 300;
+					font-style: italic;
+					margin-bottom: 25px;
+				}
+			}
+		}
+	}
+	ul {
+		font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #6d6d6d; 
+		font-size: 18px;
+		list-style: disc;
+		list-style-position: inside;
+		&.yellow-bullet {
+			color: #f6b332;
+		}
+		li { 
+			margin-bottom: 5px;
+			span {
+				font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 400;
+				color: #848689;
+				font-size: 16px;
+			} 
+			&.no-bullet {
+				margin-top: 20px;
+				text-indent: 17px;
+				list-style: none;
+			}
+		}
+	}
+}
 
 
 
