@@ -1,0 +1,6 @@
+Para gerar os sprites:
+- http://cly.jsser.com/sprites/
+
+
+Para regerar o css dos sprites:
+- http://www.spritecow.com/

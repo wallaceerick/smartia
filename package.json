@@ -1,0 +1,23 @@
+{
+  "name": "Digitaliza",
+  "version": "0.0.1",
+  "title": "Website of Digitaliza",
+  "homepage": "http://www.digitaliza.com.br/",
+  "author": {
+    "name": "Wallace Erick",
+    "email": "wallace_erick@hotmail.com",
+    "url": "http://wallaceerick.com.br"
+  },
+  "description": "A base to start and deploy your project usign Grunt",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-banner": "~0.1.4",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-ftp-deploy": "0.0.9",
+    "grunt-htmlcompressor": "~0.1.8"
+  }
+}
