@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Trabalhe Conosco</title>
+		<title>Trabalhe na Smartia Seguros Online?</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Quer trabalhar na Smartia Seguros Online? Acesse este link e preencha nosso formulário que em breve entraremos em contato." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

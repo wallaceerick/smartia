@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Seguro Motocicleta</title>
+		<title>Cotação de Seguro para Motos. Solicite a sua. Smartia Seguros Online</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Solicite agora uma cotação para o seguro de sua moto com a Smartia Seguros Online." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -64,16 +64,16 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside">
-						<div class="product-type">
+						<div class="product-type"> 
 							<img src="assets/images/icon-motocicleta.gif" alt="" />
 							<h2>Sua motocicleta precisa de seguro?</h2>
-							<p>Hoje em dia todo cuidado é pouco. Mas a Smartia esta aqui para te dar uma mãozinha. Preencha este formulário simples e em até 24 horas nossos atendentes entraram em contato com você para apresentar uma proposta.</p>
+							<p>Você que é apaixonado por moto, agora já pode cotar seu seguro online.  Com a Smartia, você consegue solicitar online seguro da sua moto em até oito seguradoras ao mesmo tempo, e o melhor, sem sair de casa.</p>
 						</div>
 						
 						<form action="" method="post">
 							<h3>Veículo</h3>
-							<p><strong>Qual o modelo do veículo?</strong></p>
-							<select class="customized">
+							<label for="modelo">Qual o modelo do veículo?</label>
+							<select id="modelo" name="modelo" class="customized">
 							    <option value="hide">Escolha o modelo da sua moto...</option>
 							    <option value="option-1">Option 1</option>
 							    <option value="option-2">Option 2</option>
@@ -92,35 +92,35 @@
 							<hr class="dotted" /> 
 							
 							<h3>Informações Pessoais</h3>
-							<p><strong>Nome completo:</strong></p>
-							<input type="text" name="" />
+							<label for="nome">Nome completo:</label>
+							<input type="text" name="" id="nome" name="nome" />
 							<div class="row extra-padding">
-								<div class="col-md-4">
-									<p><strong>Email:</strong></p>
-									<input type="text" name="" />
+								<div class="col-md-4"> 
+									<label for="email">Email:</label>
+									<input type="text" name="email" id="email" />
 								</div>
-								<div class="col-md-4">
-									<p><strong>Telefone:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+								<div class="col-md-4"> 
+									<label for="email">Telefone:</label>
+									<input class="tel" type="text" name="telefone" id="telefone" placeholder="Ex: (XX) 9999-9999" />
 								</div>
-								<div class="col-md-4">
-									<p><strong>Celular:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+								<div class="col-md-4"> 
+									<label for="celular">Celular:</label>
+									<input class="tel" type="text" name="celular" id="celular" placeholder="Ex: (XX) 9999-9999" />
 								</div> 
 							</div>
 							
 							<div class="row extra-padding">
 								<div class="col-md-2">
-									<p><strong>Estado:</strong></p>
-									<select class="customized">
+									<label for="estado">Estado:</label>
+									<select id="estado" name="estado" class="customized">
 									    <option value="hide">UF</option>
 									    <option value="option-1">Option 1</option>
 									    <option value="option-2">Option 2</option>
 									</select>
 								</div>
 								<div class="col-md-8">
-									<p><strong>Cidade:</strong></p>
-									<select class="customized">
+									<label for="cidade">Cidade:</label>
+									<select id="cidade" name="cidade" class="customized">
 									    <option value="hide">Selecione a cidade...</option>
 									    <option value="option-1">Option 1</option>
 									    <option value="option-2">Option 2</option>

@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Seguro Automóvel</title>
+		<title>Cotação de Seguro Auto. Simule seu seguro em várias seguradoras com a Smartia.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Faça a cotação do seu seguro auto com a Smartia na hora em várias seguradoras. Veja o preço e saiba o valor do seu seguro agora." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

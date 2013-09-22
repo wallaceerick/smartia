@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Calcule o valor do seguro do seu carro agora - Smartia</title>
+		<title>Calcule o valor do seguro do seu carro agora: Smartia Seguros Online</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Economize no seguro do seu carro no Smartia, calcule fácil e rápido o preço em várias seguradoras e compre na hora." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

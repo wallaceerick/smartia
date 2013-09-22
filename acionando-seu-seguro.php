@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Acionando seu seguro</title>
+		<title>Como acionar seu seguro online. Smartia Seguros Online.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Veja aqui na Smartia como é fácil acionar o seu seguro online. Acesse nosso site e leia agora mesmo." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

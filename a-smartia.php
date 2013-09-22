@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Sobre a Smartia</title>
+		<title>Conheça mais sobre a Smartia Seguros Online.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="A Smartia é o primeiro site brasileiro a fazer cotação de Seguros Online. Saiba mais sobre a Smartia aqui no nosso site." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,20 +65,24 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside with-padding institucional"> 
 						
-						<p class="big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. </p>
+						<p class="big">A Smartia foi fundada em  maio de 2010, e é pioneira em seguros para automóvel via web. Com estrutura tecnológica própria e sede no Rio de Janeiro, a empresa atende consumidores em todo o território nacional. Através do site da Smartia, você pode comparar e efetuar o contrato da sua apólice em várias seguradoras simultaneamente, sem precisar de corretor ou sair  de casa. Faça já sua cotação e compare! </p>
 						<img class="full-size" src="assets/images/smartia.jpg" alt="Smartia | Seguros on-line" />
 						
 						<h3 class="yellow mb-15">Visão</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta rutrum lorem, nec vestibulum leo lacinia in. Curabitur pretium sit amet magna quis commodo. Phasellus feugiat blandit lacinia. Suspendisse mattis neque sem, quis facilisis nunc porttitor ac. Vivamus nec gravida sem. Aliquam nec sem quis tellus volutpat consequat ut id lorem. Nulla lacinia metus vitae odio eleifend blandit. Maecenas sollicitudin eget dolor non iaculis. Phasellus ac pulvinar arcu. Morbi eget ante laoreet, laoreet eros id, pharetra mi. Nunc ligula diam, euismod eu ligula in, pulvinar eleifend dolor.</p>
+						<p>Ser a maior corretora de seguros massificados do Brasil até 2022</p>
 						
 						<h3 class="yellow mb-15">Missão &amp; Valores</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta rutrum lorem, nec vestibulum leo lacinia in. Curabitur pretium sit amet magna quis commodo. Phasellus feugiat blandit lacinia. Suspendisse mattis neque sem, quis facilisis nunc porttitor ac. Vivamus nec gravida sem. Aliquam nec sem quis tellus volutpat consequat ut id lorem. Nulla lacinia metus vitae odio eleifend blandit. Maecenas sollicitudin eget dolor non iaculis. Phasellus ac pulvinar arcu. Morbi eget ante laoreet, laoreet eros id, pharetra mi. Nunc ligula diam, euismod eu ligula in, pulvinar eleifend dolor.</p>
-						<br />
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta rutrum lorem, nec vestibulum leo lacinia in. Curabitur pretium sit amet magna quis commodo. Phasellus feugiat blandit lacinia. Suspendisse mattis neque sem, quis facilisis nunc porttitor ac. Vivamus nec gravida sem. Aliquam nec sem quis tellus volutpat consequat ut id lorem. Nulla lacinia metus vitae odio eleifend blandit. Maecenas sollicitudin eget dolor non iaculis. Phasellus ac pulvinar arcu. Morbi eget ante laoreet, laoreet eros id, pharetra mi. Nunc ligula diam, euismod eu ligula in, pulvinar eleifend dolor.</p>
-						
+						<p>
+							Vender seguros de forma inovadora; <br />
+							Audácia, para mudar o mercado <br />
+							Coragem, para vencer os desafios <br />
+							Excelência, em tudo o que fazemos <br />
+							Inovação, como ferramenta para avançar <br />
+							Integridade, como estilo de vida <br />
+							Respeito, pelos colaboradores e clientes <br />
+						</p>
 						<h3 class="yellow mb-15">Propósito</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta rutrum lorem, nec vestibulum leo lacinia in. Curabitur pretium sit amet magna quis commodo. Phasellus feugiat blandit lacinia. Suspendisse mattis neque sem, quis facilisis nunc porttitor ac. Vivamus nec gravida sem. Aliquam nec sem quis tellus volutpat consequat ut id lorem. Nulla lacinia metus vitae odio eleifend blandit. Maecenas sollicitudin eget dolor non iaculis. Phasellus ac pulvinar arcu. Morbi eget ante laoreet, laoreet eros id, pharetra mi. Nunc ligula diam, euismod eu ligula in, pulvinar eleifend dolor.</p>
-						
+						<p>Oferecer transparência e liberdade de escolha para todos na contratação de seguros no Brasil.</p>
 						
 					</section>
 					<aside class="aside-with-page">

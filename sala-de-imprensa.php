@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Sala de Imprensa</title>
+		<title>Assessoria de imprensa da Smartia Seguros Online</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Quer falar sobre a Smartia Seguros Online? Acesse nosso site por aqui e entre em contato com nossa Assessoria de Imprensa." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

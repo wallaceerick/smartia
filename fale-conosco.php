@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Fale Conosco</title>
+		<title>Entre em contato com a Smartia Seguros Online e fale conosco.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Querendo entrar em contato com a Smartia Seguros Online? Acesse este link e preencha o formulário para falar conosco." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

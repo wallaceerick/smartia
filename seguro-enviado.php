@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Seguro Frota</title>
+		<title>Sua cotação foi enviada com sucesso para a Smartia Seguros Online.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Obrigado, sua cotação foi enviada com sucesso para nossos consultores." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 

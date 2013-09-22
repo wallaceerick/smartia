@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Consórcio / Avante.com</title>
+		<title>Consórcios Avante. Smartia Seguros Online.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Buscando consórcios? Veja aqui no site da Smartia Seguros Online como você pode solicitar o seu com a Avante." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,12 +65,8 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside with-padding">
 						<img src="assets/images/avante.gif" alt="" />
-						<p>Para ajudar ainda mais nossos clientes a escolher serviços financeiros de maneira rápida e confiável, a Smartia traz
-uma nova parceria para você. Trata-se da <a href="#" class="red">Avante.com</a>, uma empresa de consórcios online, que conecta as 
-instituições financeiras em um só lugar. Ou seja, em seu próprio website.</p>
-						<p>Com a Avante você pode realizar seus sonhos sem pegar nenhuma fila de atendimento. Além disso, pesquisam as
-melhores taxas do mercado para apresentar a você. Com a <a href="#" class="red">Avante.com</a> você tem as melhores informações para 
-fechar o melhor negócio.</p>
+						<p>Para ajudar ainda mais nossos clientes a escolher serviços financeiros de forma rápida e confiável, a Smartia traz uma nova parceria para você. Trata-se da <a href="http://www.avante.com" target="_blank" class="red">Avante.com</a>, uma empresa de consórcios online, que conecta as instituições financeiras em só lugar. Ou seja, seu próprio website.</p>
+						<p>Com a Avante você pode realizar seus sonhos sem pegar nenhuma fila de atendimento. Além disso, pesquisam as melhores taxas do mercado para apresentar a você. Com a <a href="http://www.avante.com" target="_blank" class="red">Avante.com</a> você tem as melhores informações para fechar o melhor negócio.</p>
 							
 						<hr class="dotted" /> 
 						
@@ -121,8 +117,7 @@ fechar o melhor negócio.</p>
 							<li><a href="#">Seguro Frota</a></li> 
 							<li><a class="active last" href="#">Consórcio / Avante.com”</a></li>
 						</ul> 
-					</aside>
-					
+					</aside> 
 					<br />
 					
 				</div>

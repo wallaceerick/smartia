@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Seguro Frota</title>
+		<title>Cotação de Seguro para frotas de veículos. Solicite a sua. Smartia Seguros Online.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="Possui uma frota de veículos? Solicite agora mesmo a sua cotação de seguro com a Smartia Seguros Online." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -67,15 +67,15 @@
 						<div class="product-type">
 							<img src="assets/images/icon-frota.gif" alt="" />
 							<h2>Sua frota precisa de seguro?</h2>
-							<p>Hoje em dia todo cuidado é pouco. Mas a Smartia esta aqui para te dar uma mãozinha. Preencha este formulário simples e em até 24 horas nossos atendentes entraram em contato com você para apresentar uma proposta.</p>
+							<p>Para empresas que possuem frota de veículos, o cuidado com o bem estar e segurança de seus motoristas é primordial. Para isso, o seguro de frota é o ideial para cobrir de maneira igual todos os veículos da empresa. A Smartia oferece solicitação online de seguro da sua frota em várias seguradoras, simultaneamente.</p>
 						</div>
 						
 						<form action="" method="post">
 							<h3>Veículo</h3>
-							<p><strong>Qual a quantidade de veículos que sua frota possui?</strong></p>
+							<label for="quantidade">Qual a quantidade de veículos que sua frota possui?</label>
 							<div class="row">
 								<div class="col-md-6">
-									<select class="customized">
+									<select id="quantidade" name="quantidade" class="customized">
 									    <option value="hide">Escolha a quantidade de veículos...</option>
 									    <option value="1">1</option>
 									    <option value="2">2</option>
@@ -84,7 +84,7 @@
 									    <option value="5">5</option>
 									</select>
 								</div>
-							</div>
+							</div> 
 							
 							<p><strong>Você já possui este veículo?</strong></p>
 							<span class="fl-2">
@@ -99,35 +99,35 @@
 							<hr class="dotted" /> 
 							
 							<h3>Informações Pessoais</h3>
-							<p><strong>Nome completo:</strong></p>
-							<input type="text" name="" />
+							<label for="nome">Nome completo:</label>
+							<input type="text" name="" id="nome" name="nome" />
 							<div class="row extra-padding">
-								<div class="col-md-4">
-									<p><strong>Email:</strong></p>
-									<input type="text" name="" />
+								<div class="col-md-4"> 
+									<label for="email">Email:</label>
+									<input type="text" name="email" id="email" />
 								</div>
-								<div class="col-md-4">
-									<p><strong>Telefone:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+								<div class="col-md-4"> 
+									<label for="email">Telefone:</label>
+									<input class="tel" type="text" name="telefone" id="telefone" placeholder="Ex: (XX) 9999-9999" />
 								</div>
-								<div class="col-md-4">
-									<p><strong>Celular:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+								<div class="col-md-4"> 
+									<label for="celular">Celular:</label>
+									<input class="tel" type="text" name="celular" id="celular" placeholder="Ex: (XX) 9999-9999" />
 								</div> 
 							</div>
 							
 							<div class="row extra-padding">
 								<div class="col-md-2">
-									<p><strong>Estado:</strong></p>
-									<select class="customized">
+									<label for="estado">Estado:</label>
+									<select id="estado" name="estado" class="customized">
 									    <option value="hide">UF</option>
 									    <option value="option-1">Option 1</option>
 									    <option value="option-2">Option 2</option>
 									</select>
 								</div>
 								<div class="col-md-8">
-									<p><strong>Cidade:</strong></p>
-									<select class="customized">
+									<label for="cidade">Cidade:</label>
+									<select id="cidade" name="cidade" class="customized">
 									    <option value="hide">Selecione a cidade...</option>
 									    <option value="option-1">Option 1</option>
 									    <option value="option-2">Option 2</option>
@@ -138,6 +138,7 @@
 							
 							<hr class="dotted full" />
 							<button type="button">Enviar »</button>
+							
 						</form>
 						
 					</section>

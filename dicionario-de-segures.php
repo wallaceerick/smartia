@@ -3,11 +3,11 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Dicionário de Segurês</title>
+		<title>Aprenda a falar o Segurês com nosso dicionário. Smartia Seguros Online.</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
-		<meta name="description" content="" />
+		<meta name="description" content="A Smartia criou o dicionário do segurês para simplificar os termos do mercado de seguros. Leia aqui em nosso site esta novidade." />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,7 +65,7 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside with-padding dicionario-de-segures"> 
 						
-						<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. </h3>
+						<h3>Endosso? Sinistro? Terceiro? Se você acha que todos os termos do seguro são “um bicho de sete cabeças”, temos aqui o Dicionário de Segurês para esclarecer todas as suas dúvidas.</h3>
 						
 						<form action="" method="post" class="gray">
 							<div class="row">

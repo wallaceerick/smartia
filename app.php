@@ -86,7 +86,7 @@
 						</span>
 						
 						<div class="text-content">
-							<p>Conheça o aplicativo ASSISTÊNCIA SMARTIA. Com ele você poderá cadastrar e acessar os dados e informações de suas apólices de seguro, ter acesso aos principais telefones das seguradoras, abrir chamados de assistência e entrar em contato com a Central de Atendimento da Smartia Seguros Online. Tudo isso de forma fácil e simples direto em seu Iphone.</p>
+							<p>Conheça o novo aplicativo ASSISTÊNCIA SMARTIA. Com ele você poderá e cadastrar e acessar os dados e informações de suas apólices de seguro, ter acesso aos principais telefones das seguradoras, abrir chamados de assistencia e entrar em contato com a central de atendimento da SMARTIA SEGUROS ONLINE. Tudo isso de forma simples direto no seu Iphone.</p>
 						</div>
 						
 					</section>
