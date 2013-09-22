@@ -903,6 +903,7 @@ OUR STYLES
 /* Páginas Institucionais */
 .institucional {
 	.yellow {
+		//color: scale-lightness(#f6b332, 20%)!important;
 		color: #f6b332!important;
 	}
 	.mb-15 {
@@ -927,10 +928,10 @@ OUR STYLES
 	h6 {font-style: 13px;}
 	p {
 		font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-weight: 400;
+		font-weight: 400; 
 		color: #676767;
 		font-size: 13px;
-		margin-bottom: 35px;
+		margin-bottom: 15px;
 		line-height: 17px;
 		&.big {
 			font-size: 16px;
@@ -940,6 +941,22 @@ OUR STYLES
 	}
 	ul, ol {
 		list-style-position: inside;
+	}
+	.content-info {
+		display: block;
+		margin-bottom: 50px;
+		h2 {
+			color: #848689;
+			font-size: 16px;
+		}
+		p {
+			font-family: "open-sans-i4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight: 400; 
+			font-style: italic;
+			color: #676767;
+			font-size: 16px;
+			line-height: 20px;
+		}
 	}
 }
 

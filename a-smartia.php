@@ -73,6 +73,7 @@
 						
 						<h3 class="yellow mb-15">Missão &amp; Valores</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta rutrum lorem, nec vestibulum leo lacinia in. Curabitur pretium sit amet magna quis commodo. Phasellus feugiat blandit lacinia. Suspendisse mattis neque sem, quis facilisis nunc porttitor ac. Vivamus nec gravida sem. Aliquam nec sem quis tellus volutpat consequat ut id lorem. Nulla lacinia metus vitae odio eleifend blandit. Maecenas sollicitudin eget dolor non iaculis. Phasellus ac pulvinar arcu. Morbi eget ante laoreet, laoreet eros id, pharetra mi. Nunc ligula diam, euismod eu ligula in, pulvinar eleifend dolor.</p>
+						<br />
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta rutrum lorem, nec vestibulum leo lacinia in. Curabitur pretium sit amet magna quis commodo. Phasellus feugiat blandit lacinia. Suspendisse mattis neque sem, quis facilisis nunc porttitor ac. Vivamus nec gravida sem. Aliquam nec sem quis tellus volutpat consequat ut id lorem. Nulla lacinia metus vitae odio eleifend blandit. Maecenas sollicitudin eget dolor non iaculis. Phasellus ac pulvinar arcu. Morbi eget ante laoreet, laoreet eros id, pharetra mi. Nunc ligula diam, euismod eu ligula in, pulvinar eleifend dolor.</p>
 						
 						<h3 class="yellow mb-15">Propósito</h3>
