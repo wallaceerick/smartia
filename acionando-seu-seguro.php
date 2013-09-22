@@ -135,9 +135,9 @@
 					<aside class="aside-with-page">
 						<ul class="aside-links">
 							<li><a href="#">Seguro Online</a></li>
-							<li><a class="active" href="#">Acionando seu seguro</a></li>
+							<li><a class="active" href="acionando-seu-seguro.php">Acionando seu seguro</a></li>
 							<li><a href="#">FAQ - Perguntas Frequentes</a></li>
-							<li><a class="last" href="#">Dicionário do “Segurês”</a></li>
+							<li><a class="last" href="dicionario-de-segures.php">Dicionário do “Segurês”</a></li>
 						</ul>
 						<div class="aside-box">
 							<h2 class="seguradoras">Contato das Seguradoras</h2>

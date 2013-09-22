@@ -40,7 +40,7 @@
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Perguntas frequentes</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="dicionario-de-segures">Dicionário de segurês</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="dicionario-de-segures.php">Dicionário de segurês</a></li>
 								</ul>
 							</li>
 							<li class="dropdown menu-sobre-a-smartia">
