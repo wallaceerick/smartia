@@ -34,13 +34,13 @@
 							<li class="dropdown menu-como-funciona">
 								<a id="dropComoFunciona" role="button" data-hover="dropdown" href="#">Como funciona <b class="glyphicon glyphicon-chevron-down"></b></a>
 								<ul id="menuComoFunciona" class="dropdown-menu" role="menu" aria-labelledby="dropComoFunciona">
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="seguro-online.html">Seguro online</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Seguro online</a></li>
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="acionando-seu-seguro.php">Acionando seu seguro</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Perguntas frequentes</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Perguntas frequentes</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Dicionário de segurês</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="dicionario-de-segures">Dicionário de segurês</a></li>
 								</ul>
 							</li>
 							<li class="dropdown menu-sobre-a-smartia">

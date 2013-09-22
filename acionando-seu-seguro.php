@@ -142,8 +142,8 @@
 						<div class="aside-box">
 							<h2 class="seguradoras">Contato das Seguradoras</h2>
 							<ul class="seguradoras">
-								<li>
-									<img src="assets/images/s-bradesco.gif" alt="Bradesco" />
+								<li class="first">
+									<img class="icon" src="assets/images/s-bradesco.gif" alt="Bradesco" />
 									<h3>Bradesco</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -153,7 +153,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img src="assets/images/s-liberty.gif" alt="Liberty Seguros" />
+									<img class="icon" src="assets/images/s-liberty.gif" alt="Liberty Seguros" />
 									<h3>Liberty Seguros</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -163,7 +163,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img src="assets/images/s-tokio.gif" alt="Tokio Marine" />
+									<img class="icon" src="assets/images/s-tokio.gif" alt="Tokio Marine" />
 									<h3>Tokio Marine</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -173,7 +173,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img src="assets/images/s-zurich.gif" alt="Zurich" />
+									<img class="icon" src="assets/images/s-zurich.gif" alt="Zurich" />
 									<h3>Zurich</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -183,7 +183,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img src="assets/images/s-allianz.gif" alt="Allianz" />
+									<img class="icon" src="assets/images/s-allianz.gif" alt="Allianz" />
 									<h3>Allianz</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -193,7 +193,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img src="assets/images/s-maritima.gif" alt="Marítima Seguros" />
+									<img class="icon" src="assets/images/s-maritima.gif" alt="Marítima Seguros" />
 									<h3>Marítima Seguros</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -203,7 +203,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img src="assets/images/s-bradesco.gif" alt="HDI Seguros" />
+									<img class="icon" src="assets/images/s-bradesco.gif" alt="HDI Seguros" />
 									<h3>HDI Seguros</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -212,8 +212,8 @@
 									</p>
 									<a href="#">Site da Seguradora »</a>
 								</li>
-								<li>
-									<img src="assets/images/s-paribas.gif" alt="BNP Paribas Cardif" />
+								<li class="last">
+									<img class="icon" src="assets/images/s-paribas.gif" alt="BNP Paribas Cardif" />
 									<h3>BNP Paribas Cardif</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
