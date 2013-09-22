@@ -3,7 +3,7 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Fale Conosco</title>
+		<title>Trabalhe Conosco</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
@@ -51,9 +51,9 @@
 			<ol class="breadcrumb">
 			  <li><a href="#">Home</a></li>
 			  <li><a href="#">Contato</a></li>
-			  <li class="active">Fale Conosco</li>
+			  <li class="active">Trabalhe Conosco</li>
 			</ol>
-			<h1>Fale Conosco</h1>
+			<h1>Trabalhe Conosco</h1>
 			<a href="#" class="big-simule-button">Simule agora seu seguro</a>
 			</div>
 		</div>
@@ -67,23 +67,29 @@
 						
 						<form action="" method="post">
 							
-							<p><strong>Nome completo:</strong></p> 
-							<input type="text" name="" />
+							<label for="nome">Nome completo:</label>
+							<input type="text" name="nome" id="nome" />
 							
 							<div class="row extra-padding">
 								<div class="col-md-6">
-									<p><strong>Email:</strong></p>
-									<input type="text" name="" />
+									<label for="email">Email:</label>
+									<input type="text" name="email" id="email" />
 								</div>
 								<div class="col-md-6">
-									<p><strong>Telefone:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+									<label for="telefone">Telefone:</label>
+									<input class="tel" type="text" name="telefone" id="telefone" placeholder="Ex: (XX) 9999-9999" />
 								</div>
 							</div>
 							
 							<br />
-							<p><strong>Mensagem:</strong></p>
-							<textarea></textarea> 
+							
+							<label for="mensagem">Mensagem:</label>
+							<textarea id="mensagem" name="mensagem"></textarea> 
+							
+							<div class="row gray-backgound for-upload">
+								<label for="file">Envio de Currículo:</label> 
+								<input type="file" id="file" name="myfiles[]" multiple value="home.jpg" />
+							</div>
 							
 							<div class="row gray-backgound">
 								<div class="col-md-9 align-right small-p">

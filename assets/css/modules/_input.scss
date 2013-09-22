@@ -23,6 +23,11 @@ textarea {
 		border-color: #7e7e7e;
 		color: #7e7e7e;
 	}
+	&.customfile-filename {
+		width: 105%;
+		margin-left: -15px;
+		padding: 11px 7px;
+	}
 }
 textarea {
 	padding-top: 10px; 
@@ -33,6 +38,7 @@ label {
 	font-weight: 400;
 	font-size: 13px;
 	color: #676767;
+	font-weight: bold;
 }
 button {
 	background: #96d714;
@@ -51,5 +57,14 @@ button {
 	@include border-radius(5px);
 	&:hover {
 		background: darken(#96d714, 6);
+	}
+	&.customfile-upload {
+		background: #656565;
+		padding: 7px 30px;
+		margin-top: 0!important;
+		margin-right: -15px;
+		&:hover {
+			background: darken(#656565, 11);
+		}
 	}
 }

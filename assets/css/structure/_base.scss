@@ -960,7 +960,7 @@ OUR STYLES
 	}
 }
 
-/* Form's */
+/* Form's */ 
 .no-margin {
 	margin: 0 -15px 0 0!important;
 }
@@ -968,7 +968,20 @@ OUR STYLES
 	padding: 15px;
 	background: #eee;
 	margin: 20px 0;
+	position: relative;
 	@include border-radius(2px);
+	&.for-upload {
+		padding: 8px 15px 3px 15px;
+	}
+}
+.formats {
+	position: absolute;
+	top: -20px;
+	right: 5px;
+	font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #979595;
+	font-size: 11px!important;
 }
 .align-right {
 	text-align: right;
