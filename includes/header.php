@@ -44,13 +44,13 @@
 								</ul>
 							</li>
 							<li class="dropdown menu-sobre-a-smartia">
-							  	<a id="dropSobreASmartia" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Sobre a smartia <b class="glyphicon glyphicon-chevron-down"></b></a>
+							  	<a id="dropSobreASmartia" role="button" data-hover="dropdown" href="#">Sobre a smartia <b class="glyphicon glyphicon-chevron-down"></b></a>
 							  	<ul id="menuSobreSmartia" class="dropdown-menu" role="menu" aria-labelledby="dropSobreASmartia">
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">A Smartia</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="a-smartia.php">A Smartia</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Depoimentos</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Depoimentos</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Sala de imprensa</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="sala-de-imprensa.php">Sala de imprensa</a></li>
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Smartia na mídia</a></li>
 								</ul>
