@@ -52,19 +52,19 @@
 									<li role="presentation" class="divider"></li>
 									<li role="presentation"><a role="menuitem" tabindex="-1" href="sala-de-imprensa.php">Sala de imprensa</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Smartia na mídia</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Smartia na mídia</a></li>
 								</ul>
 							</li>
 							<li class="dropdown menu-contato">
-								<a id="dropContato" role="button" data-hover="dropdown" href="?sl=v3&debug=true#">Contato <b class="glyphicon glyphicon-chevron-down"></b></a>
+								<a id="dropContato" role="button" data-hover="dropdown" href="#">Contato <b class="glyphicon glyphicon-chevron-down"></b></a>
 								<ul id="menuContato" class="dropdown-menu" role="menu" aria-labelledby="dropContato">
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="fale-conosco">Fale conosco</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="fale-conosco.php">Fale conosco</a></li>
 									<li role="presentation" class="divider"></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Trabalhe conosco</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="trabalhe-conosco.php">Trabalhe conosco</a></li>
 								</ul>
 							</li>
 							<li class="simular-agora">
-								<a class="btn btn-primary" href="seguro-auto/simulacao-preco/veiculo">Simule agora seu seguro <b class="right-caret"></b></a>
+								<a class="btn btn-primary" href="#">Simule agora seu seguro <b class="right-caret"></b></a>
 							</li>
 							<li class="social">
 								<div class="google">

@@ -408,7 +408,7 @@ OUR STYLES
 	float: left;
 	margin-bottom: 60px;
 	&.with-padding {
-		padding-top: 30px;
+		padding-top: 22px;
 	}
 	h3 {
 		font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -960,6 +960,28 @@ OUR STYLES
 	}
 }
 
+/* Form's */
+.no-margin {
+	margin: 0 -15px 0 0!important;
+}
+.gray-backgound {
+	padding: 15px;
+	background: #eee;
+	margin: 20px 0;
+	@include border-radius(2px);
+}
+.align-right {
+	text-align: right;
+}
+.small-p {
+	font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #979595;
+	font-size: 11px!important;
+	line-height: 15px!important;
+	margin: 0;
+	padding: 5px 0 0 0!important;
+}
 
 
 
