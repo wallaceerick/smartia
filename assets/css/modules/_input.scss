@@ -56,7 +56,7 @@ button {
 	@include transition(all 0.2s ease-in);
 	@include border-radius(5px);
 	&:hover {
-		background: darken(#96d714, 6);
+		background: #b5e952;
 	}
 	&.customfile-upload {
 		background: #656565;
@@ -64,7 +64,7 @@ button {
 		margin-top: 0!important;
 		margin-right: -15px;
 		&:hover {
-			background: darken(#656565, 11);
+			background: #9f9f9f;
 		}
 	}
 }

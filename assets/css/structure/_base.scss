@@ -141,6 +141,7 @@ section.sobre-o-smartia > h1 {
 	font-weight: 700;
 	line-height: 25px;
 	letter-spacing: -1px;
+	color: #9c9a95;
 }
 .posts-recentes article {
 	padding: 0;
@@ -286,29 +287,30 @@ OUR STYLES
 	font-size: 18px;
 	color: #fff!important;
 	text-decoration: none!important;
-	padding: 13px 40px 12px 30px;
-	//width: 255px;
-	height: 55px;
+	padding: 16px 40px 17px 30px;
+	width: 260px;
+	height: 56px;
 	background: #90ca1c;
 	font-size: 18px;
 	position: absolute;
 	top: 30px;
 	right: 15px; 
-	border: 3px solid #575b4e;
+	//border: 3px solid #575b4e;
 	@include border-radius(7px);
+	@include transition(all 0.2s ease-in);
 	&:hover {
-		background: #b1ef35;
+		background: #b5e952;
 	}
 	&:before { 
 		position: absolute;
-		top: 15px;
+		top: 20px;
 		right: 15px;
 		content: "";
 		width: 0; 
 		height: 0; 
-		border-top: 10px solid transparent;
-		border-bottom: 10px solid transparent; 
-		border-left: 10px solid #fff; 
+		border-top: 9px solid transparent;
+		border-bottom: 9px solid transparent; 
+		border-left: 9px solid #fff; 
 	}
 }
 .double-border {
