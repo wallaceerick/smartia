@@ -68,11 +68,12 @@
 							<img src="assets/images/icon-caminhao.gif" alt="" />
 							<h2>Seu caminhão precisa de seguro?</h2>
 							<p>Agora no site da Smartia você pode solicitar online a cotação do seguro do seu caminhão. Contando com oito seguradoras, a cotação é simultânea e você pode comprar os valores sem sair de casa.</p>
+							<br />
 						</div>
 						
-						<form action="modelo" method="post">
+						<form action="" method="post">
 							<h3>Veículo</h3>
-							<p><strong>Qual o modelo do veículo?</strong></p>
+							<label for="modelo">Qual o modelo do veículo?</label>
 							<select id="modelo" name="modelo" class="customized">
 							    <option value="hide">Escolha o modelo do seu caminhão...</option>
 							    <option value="option-1">Option 1</option>

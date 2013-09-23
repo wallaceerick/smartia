@@ -68,11 +68,12 @@
 							<img src="assets/images/icon-automovel.gif" alt="" />
 							<h2>Seu caminhão precisa de seguro?</h2>
 							<p>Hoje em dia todo cuidado é pouco. Mas a Smartia esta aqui para te dar uma mãozinha. Preencha este formulário simples e em até 24 horas nossos atendentes entraram em contato com você para apresentar uma proposta.</p>
+							<br />
 						</div>
 						
 						<form action="" method="post">
 							<h3>Veículo</h3>
-							<p><strong>Qual o modelo do veículo?</strong></p>
+							<label for="modelo">Qual o modelo do veículo?</label>
 							<select class="customized">
 							    <option value="hide">Escolha o modelo do seu automóvel...</option>
 							    <option value="option-1">Option 1</option>
@@ -92,35 +93,35 @@
 							<hr class="dotted" /> 
 							
 							<h3>Informações Pessoais</h3>
-							<p><strong>Nome completo:</strong></p>
-							<input type="text" name="" />
+							<label for="nome">Nome completo:</label>
+							<input type="text" name="" id="nome" name="nome" />
 							<div class="row extra-padding">
-								<div class="col-md-4">
-									<p><strong>Email:</strong></p>
-									<input type="text" name="" />
+								<div class="col-md-4"> 
+									<label for="email">Email:</label>
+									<input type="text" name="email" id="email" />
 								</div>
-								<div class="col-md-4">
-									<p><strong>Telefone:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+								<div class="col-md-4"> 
+									<label for="email">Telefone:</label>
+									<input class="tel" type="text" name="telefone" id="telefone" placeholder="Ex: (XX) 9999-9999" />
 								</div>
-								<div class="col-md-4">
-									<p><strong>Celular:</strong></p>
-									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
+								<div class="col-md-4"> 
+									<label for="celular">Celular:</label>
+									<input class="tel" type="text" name="celular" id="celular" placeholder="Ex: (XX) 9999-9999" />
 								</div> 
 							</div>
 							
 							<div class="row extra-padding">
 								<div class="col-md-2">
-									<p><strong>Estado:</strong></p>
-									<select class="customized">
+									<label for="estado">Estado:</label>
+									<select id="estado" name="estado" class="customized">
 									    <option value="hide">UF</option>
 									    <option value="option-1">Option 1</option>
 									    <option value="option-2">Option 2</option>
 									</select>
 								</div>
 								<div class="col-md-8">
-									<p><strong>Cidade:</strong></p>
-									<select class="customized">
+									<label for="cidade">Cidade:</label>
+									<select id="cidade" name="cidade" class="customized">
 									    <option value="hide">Selecione a cidade...</option>
 									    <option value="option-1">Option 1</option>
 									    <option value="option-2">Option 2</option>

@@ -67,22 +67,22 @@
 						
 						<form action="" method="post">
 							
-							<p><strong>Nome completo:</strong></p> 
+							<label for="nome">Nome completo:</label>
 							<input type="text" name="" />
 							
 							<div class="row extra-padding">
 								<div class="col-md-6">
-									<p><strong>Email:</strong></p>
+									<label for="email">Email:</label>
 									<input type="text" name="" />
 								</div>
 								<div class="col-md-6">
-									<p><strong>Telefone:</strong></p>
+									<label for="telefone">Telefone:</label>
 									<input class="tel" type="text" name="" placeholder="Ex: (XX) 9999-9999" />
 								</div>
 							</div>
 							
 							<br />
-							<p><strong>Mensagem:</strong></p>
+							<label for="mensagem">Mensagem:</label>
 							<textarea></textarea> 
 							
 							<div class="row gray-backgound">

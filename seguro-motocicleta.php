@@ -68,6 +68,7 @@
 							<img src="assets/images/icon-motocicleta.gif" alt="" />
 							<h2>Sua motocicleta precisa de seguro?</h2>
 							<p>Você que é apaixonado por moto, agora já pode cotar seu seguro online.  Com a Smartia, você consegue solicitar online seguro da sua moto em até oito seguradoras ao mesmo tempo, e o melhor, sem sair de casa.</p>
+							<br />
 						</div>
 						
 						<form action="" method="post">
