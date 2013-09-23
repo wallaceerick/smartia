@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="row imagens">
 			<div class="siga-nos col-md-4 col-sm-4 col-xs-4">
-				Siga-nos 
+				<span class="title">Siga-nos</span>
 				<ul class="inline">
 					<li><a href="facebook" alt="Curta nossa página do Facebook"><b class="sprite-dinamico share-facebook ir">Curta nossa página do Facebook</b></a></li> 
 					<li><a href="twitter" alt="Siga a Smartia no Twitter"><b class="sprite-dinamico share-twitter ir">Siga a Smartia no Twitter</b></a></li>

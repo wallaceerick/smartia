@@ -79,13 +79,20 @@
 	padding-right: 2px;
 }
 
-
+span.title {
+	display: block;
+	float: left;
+}
 .rodape ul.inline {
 	padding-left: 15px;
+	float: left;
+	display: block;
 }
 
 .rodape ul.inline li {
-	margin-left: -5px;
+	margin-left: 1px!important;
+	display: block;
+	float: left;
 }
 
 .rodape .copyrights {
