@@ -9,8 +9,8 @@
 						<ul class="nav nav-pills">
 							<li class="blog"><a href="#"><b class="sprite-header blog-icon"></b>Blog</a></li>
 							<li class="app-mobile"><a href="app.php"><b class="sprite-header mobile-icon"></b>App Mobile</a></li>
-							<li class="chat-online"><a href="#"><b class="sprite-header chat-icon"></b>Chat Online</a></li> 
-							<li class="atalho-atendimento"><a id="atendimentoSmartia" role="button" data-toggle="modal" href="#modalAtendimento"><span class="texto"><b class="sprite-header atend-icon"></b>Atendimento &nbsp;</span> <span class="sprite-header atend-fone">0800 Smartia</span></a></li>
+							<li class="chat-online"><a href="#"><b class="sprite-header chat-icon"></b>Chat</a></li> 
+							<li class="atalho-atendimento"><a id="atendimentoSmartia" role="button" data-toggle="modal" href="#modalAtendimento"><span class="texto"><b class="sprite-header atend-icon"></b></span> <span class="sprite-header atend-fone">0800 Smartia</span></a></li>
 						</ul>
 					</nav> 
 					<nav class="menubar">

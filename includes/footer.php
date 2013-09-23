@@ -9,9 +9,9 @@
 					<li class="divider">|</li>
 					<li><a href="#">Segurança</a></li>
 					<li class="divider">|</li>
-					<li><a href="#">Cotação de Seguro</a></li>
-					<li class="divider">|</li>
-					<li><a href="#">Seguro Auto</a></li>
+					<li><a href="#">Mapa do Site</a></li>
+					<!-- <li class="divider">|</li> -->
+					<!-- <li><a href="#">Seguro Auto</a></li>
 					<li class="divider">|</li>
 					<li><a href="#">Seguradoras</a></li>
 					<li class="divider">|</li>
@@ -19,7 +19,7 @@
 					<li class="divider">|</li>
 					<li><a href="#">Simulação de Seguro</a></li>
 					<li class="divider">|</li>
-					<li><a href="#">Franquia de Seguros</a></li>
+					<li><a href="#">Franquia de Seguros</a></li> -->
 				</ul>
 			</div>
 		</div>
