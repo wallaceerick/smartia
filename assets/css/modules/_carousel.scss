@@ -50,6 +50,30 @@
 	font-family: "alwyn-new-web-n5", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 }
+#carousel .seguradoras .imagem {
+	position: absolute;
+	background-image: url("../images/home/banners/seguradoras/logos.png");
+	width: 675px;
+	height: 159px;
+	top: 135px
+}
+#carousel .seguradoras .descricao {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+#carousel .seguradoras h2 {
+	font-size: 36px;
+	letter-spacing: -2px;
+	text-align: center;
+	line-height: 40px;
+}
+#carousel .seguradoras h2 span {
+	display: block;
+	font-size: 48px;
+	font-family: "alwyn-new-web-n5", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+}
 
 #carousel .banner-mobile {
 	background: #f9f9f9 url("../images/home/banners/mobile/bg.png") ;
@@ -77,6 +101,7 @@
 	font-weight: 500;
 	font-family: "alwyn-new-web-n5", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: -3px;
+	color: #8f8d87;
 }
 #carousel .banner-mobile .descricao .detalhes {
 	padding-left: 32px;
@@ -103,6 +128,7 @@
 }
 #carousel .banner-mobile .descricao li {
 	list-style-type: none;
+	color: #8f8d87;
 }
 #carousel .banner-mobile .descricao .adicional {
 	padding: 7px 5px;

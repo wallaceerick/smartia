@@ -101,12 +101,15 @@
 						</div>
 					</div>
 				</section>
-				<section class="banner-seguradoras item">
+				<section class="banner-principal seguradoras item">
 					<div class="container">
-						<div class="imagem"></div>
-						<div class="descricao">
-							<h2><b>Seguradoras</b> parceiras</h2>
-							<p class="adicional"><a class="veja-mais" href="?sl=v3&debug=true#">Veja como funciona<b class="glyphicon glyphicon-circle-arrow-right"></b></a></p>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="imagem"></div>
+								<div class="descricao">
+									<h2>Trabalhamos com as <span>maiores seguradoras do mercado!</span></h2>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
