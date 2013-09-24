@@ -14,7 +14,14 @@
 		<link rel="shortcut icon" href="static/v3/images/favico.ico">
 		<link rel="apple-touch-icon-precomposed" href="static/v3/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="static/v3/styles/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/reset.css" media="all" />  
+		<link rel="stylesheet" href="static/v3/styles/bootstrap.css" media="all" />  
+		<link rel="stylesheet" href="static/v3/styles/inside.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/common.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/header.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/footer.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/inputs.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/select.css" media="all" />
 		
 		<!--[if IE 8]>
 			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
@@ -69,10 +76,10 @@
 						<form action="" method="post" class="gray">
 							<div class="row">
 								<div class="col-md-10">
-									<input type="text" name="" placeholder="Buscar por termo..." />
+									<input type="text" name="" placeholder="Buscar por termo..." class="with-margin" />
 								</div>
 								<div class="col-md-2">
-									<button>Buscar</button>
+									<button class="with-margin">Buscar</button>
 								</div>
 							</div>
 						</form>

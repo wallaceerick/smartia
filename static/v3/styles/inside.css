@@ -503,7 +503,7 @@ OUR STYLES
   margin-bottom: 10px; }
 .dicionario-de-segures form.gray {
   display: block;
-  margin-top: 15px;
+  margin-top: 5px;
   background: #f4f4f4;
   padding: 20px;
   border-radius: 5px;
@@ -512,9 +512,13 @@ OUR STYLES
   -o-border-radius: 5px; }
   .dicionario-de-segures form.gray input {
     padding: 12px;
-    font-size: 18px; }
-  .dicionario-de-segures form.gray button {
-    margin: 0; }
+    font-size: 18px; } 
+
+  .dicionario-de-segures form.gray input.with-margin {margin: 10px 10px 0 0!important; }
+  .dicionario-de-segures form.gray button.with-margin {margin: 10px 0 0 10px!important; }
+  
+  .with-margin-2 {margin: 10px 0 0 0!important; }  
+ 
 .dicionario-de-segures .filter {
   padding: 15px 5px; }
   .dicionario-de-segures .filter ol {
@@ -524,7 +528,7 @@ OUR STYLES
       list-style: none;
       margin-right: 20px; }
       .dicionario-de-segures .filter ol li.last {
-        margin-right: 0; }
+        margin-right: 0!important; }
       .dicionario-de-segures .filter ol li a {
         font-family: "open-sans-n6", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 600;
@@ -541,6 +545,13 @@ OUR STYLES
           font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
           font-weight: bold;
           color: #f6b332; }
+        
+        @media (max-width: 1200px) {
+          .dicionario-de-segures .filter ol li {
+            margin-right: 15px;
+          }
+        } 
+
 .dicionario-de-segures .search-result h4 {
   font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -618,9 +629,12 @@ OUR STYLES
 /* Form's */
 .no-margin {
   margin: 0 -15px 0 0 !important; }
-
+.p-with-margin {
+  margin: 8px 0 0 0 !important; }
+.no-padding-right {
+  padding-right: 0 !important; }
 .gray-backgound {
-  padding: 15px;
+  padding: 5px 15px 15px 15px;
   background: #eee;
   margin: 20px 0;
   position: relative;

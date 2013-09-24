@@ -14,7 +14,14 @@
 		<link rel="shortcut icon" href="static/v3/images/favico.ico">
 		<link rel="apple-touch-icon-precomposed" href="static/v3/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="static/v3/styles/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/reset.css" media="all" />  
+		<link rel="stylesheet" href="static/v3/styles/bootstrap.css" media="all" />  
+		<link rel="stylesheet" href="static/v3/styles/inside.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/common.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/header.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/footer.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/inputs.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/select.css" media="all" />
 		
 		<!--[if IE 8]>
 			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
@@ -91,15 +98,15 @@
 							</div>
 							
 							<div class="row gray-backgound">
-								<div class="col-md-9 align-right small-p">
-									<span class="small-p">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. <br />
-										Nulla lacinia iaculis nulla non ptulvinar.Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+								<div class="col-md-9 align-right small-p p-with-margin">
+									<span class="small-p ">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque. <br />
+										Nulla lacinia iaculis nulla non ptulvinar.Lorem ipsum dolor sit amet, consectetur adipiscing. <br />
 										Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non ptulvinar.
 									</span>
 								</div>
-								<div class="col-md-3">
-									<button type="button" class="no-margin">Enviar »</button>
+								<div class="col-md-3 no-padding-right">
+									<button type="button" class="with-margin-2">Enviar »</button>
 								</div>
 							</div> 
 							
@@ -109,8 +116,8 @@
 					</section>
 					<aside class="aside-with-page">
 						<ul class="aside-links">
-							<li><a class="active" href="fale-conosco.php">Fale Conosco</a></li>
-							<li><a class="last" href="trabalhe-conosco.php">Trabalhe Conosco</a></li>
+							<li><a href="fale-conosco.php">Fale Conosco</a></li>
+							<li><a class="active last" href="trabalhe-conosco.php">Trabalhe Conosco</a></li>
 						</ul>
 					</aside>
 					

@@ -52,8 +52,7 @@ label {
   font-weight: 400;
   font-size: 13px;
   color: #676767;
-  font-weight: bold; }
-
+  font-weight: bold; } 
 button {
   background: #96d714;
   color: #fff;
@@ -79,7 +78,14 @@ button {
   button.customfile-upload {
     background: #656565;
     padding: 7px 30px;
-    margin-top: 0 !important;
+    margin-top: 0 ;
     margin-right: -15px; }
     button.customfile-upload:hover {
       background: #9f9f9f; }
+
+
+@media (max-width: 992px) {
+  button.customfile-upload {
+    margin-top: 10px;
+  }
+} 
