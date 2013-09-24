@@ -11,13 +11,20 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-		<link rel="shortcut icon" href="assets/images/favico.ico">
-		<link rel="apple-touch-icon-precomposed" href="assets/images/layout/icon-ios.png">
+		<link rel="shortcut icon" href="static/v3/images/favico.ico">
+		<link rel="apple-touch-icon-precomposed" href="static/v3/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/reset.css" media="all" />  
+		<link rel="stylesheet" href="static/v3/styles/bootstrap.css" media="all" />  
+		<link rel="stylesheet" href="static/v3/styles/inside.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/common.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/header.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/footer.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/inputs.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/select.css" media="all" />
 		
 		<!--[if IE 8]>
-			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
+			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
 		<![endif]-->
 		
 		<!-- Typekit -->
@@ -64,7 +71,7 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside">
 						<div class="product-type">
-							<img src="assets/images/icon-taxi.gif" alt="" />
+							<img src="static/v3/images/icon-taxi.gif" alt="" />
 							<h2>Seu taxi precisa de seguro?</h2>
 							<p>Você que é taxista e faz uso do seu veiculo para trabalhar, sabe o quão impotante é o seguro para o seu taxi. Agora no site da Smartia, você pode solicitar online a cotação seguro do seu táxi em até oito seguradoras diferentes, ao mesmo tempo!</p>
 						</div>
@@ -140,7 +147,7 @@
 							<li><a class="last" href="#">Dicionário do “Segurês”</a></li>
 						</ul>
 						<div class="aside-box">
-							<img src="assets/images/compre-tel.gif" alt="Compre pelo Telefone" />
+							<img src="static/v3/images/compre-tel.gif" alt="Compre pelo Telefone" />
 							<span class="tel"><strong>0800</strong> 762 7842</span>
 							<span class="small">Ou também através do nosso CHAT.</span>
 							<a href="#" class="chat-on">Chat On-line</a>

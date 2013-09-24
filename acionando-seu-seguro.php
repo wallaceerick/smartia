@@ -11,13 +11,13 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-		<link rel="shortcut icon" href="assets/images/favico.ico">
-		<link rel="apple-touch-icon-precomposed" href="assets/images/layout/icon-ios.png">
+		<link rel="shortcut icon" href="static/v3/images/favico.ico">
+		<link rel="apple-touch-icon-precomposed" href="static/v3/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/style.css" media="all" />
 		
 		<!--[if IE 8]>
-			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
+			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
 		<![endif]-->
 		
 		<!-- Typekit -->
@@ -142,7 +142,7 @@
 							<h2 class="seguradoras">Contato das Seguradoras</h2>
 							<ul class="seguradoras">
 								<li class="first">
-									<img class="icon" src="assets/images/s-bradesco.gif" alt="Bradesco" />
+									<img class="icon" src="static/v3/images/s-bradesco.gif" alt="Bradesco" />
 									<h3>Bradesco</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -152,7 +152,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img class="icon" src="assets/images/s-liberty.gif" alt="Liberty Seguros" />
+									<img class="icon" src="static/v3/images/s-liberty.gif" alt="Liberty Seguros" />
 									<h3>Liberty Seguros</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -162,7 +162,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img class="icon" src="assets/images/s-tokio.gif" alt="Tokio Marine" />
+									<img class="icon" src="static/v3/images/s-tokio.gif" alt="Tokio Marine" />
 									<h3>Tokio Marine</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -172,7 +172,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img class="icon" src="assets/images/s-zurich.gif" alt="Zurich" />
+									<img class="icon" src="static/v3/images/s-zurich.gif" alt="Zurich" />
 									<h3>Zurich</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -182,7 +182,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img class="icon" src="assets/images/s-allianz.gif" alt="Allianz" />
+									<img class="icon" src="static/v3/images/s-allianz.gif" alt="Allianz" />
 									<h3>Allianz</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -192,7 +192,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img class="icon" src="assets/images/s-maritima.gif" alt="Marítima Seguros" />
+									<img class="icon" src="static/v3/images/s-maritima.gif" alt="Marítima Seguros" />
 									<h3>Marítima Seguros</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -202,7 +202,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li>
-									<img class="icon" src="assets/images/s-bradesco.gif" alt="HDI Seguros" />
+									<img class="icon" src="static/v3/images/s-bradesco.gif" alt="HDI Seguros" />
 									<h3>HDI Seguros</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>
@@ -212,7 +212,7 @@
 									<a href="#">Site da Seguradora »</a>
 								</li>
 								<li class="last">
-									<img class="icon" src="assets/images/s-paribas.gif" alt="BNP Paribas Cardif" />
+									<img class="icon" src="static/v3/images/s-paribas.gif" alt="BNP Paribas Cardif" />
 									<h3>BNP Paribas Cardif</h3>
 									<p>
 										<span>Sinistro: 4004-2757</span>

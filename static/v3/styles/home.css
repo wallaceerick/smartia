@@ -1,0 +1,246 @@
+section.sobre-o-smartia > h1 {
+  font-size: 36px;
+  font-size: 38px;
+  letter-spacing: -2px; }
+
+.como-funciona {
+  margin-top: 30px;
+  background-image: url("../images/home/como-funciona.png");
+  background-repeat: no-repeat;
+  background-position-x: 36px;
+  height: 276px;
+  margin-bottom: 45px; }
+
+.como-funciona > div {
+  margin-top: 213px;
+  margin-left: 63px;
+  display: inline-block;
+  bottom: 10px;
+  color: #f7b334;
+  width: 145px;
+  vertical-align: top;
+  text-align: center; }
+
+.como-funciona > div span {
+  font-size: 30px;
+  font-family: "alwyn-new-web-n5", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: -1px; }
+
+.como-funciona > div.resultado {
+  margin-left: 98px;
+  width: 216px;
+  margin-top: 233px;
+  line-height: 20px; }
+
+.como-funciona > div.resultado span {
+  font-size: 24px;
+  letter-spacing: -1px; }
+
+.como-funciona > div.resultado b {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0; }
+
+.sobre-o-smartia {
+  margin-top: 75px; }
+
+.sobre-o-smartia h1 {
+  margin-bottom: 26px; }
+
+.sobre-o-smartia p {
+  text-align: center; }
+
+.vantagens {
+  margin-top: 16px; }
+
+.vantagens ul {
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.vantagens li {
+  font-family: "open-sans-n1", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  color: #9c9a95; }
+
+.vantagens .segunda-coluna {
+  margin-left: -39px; }
+
+.vantagens .cobertura-atendimento img {
+  margin-top: -48px;
+  float: right; }
+
+.seguradoras-parceiras {
+  margin-top: 36px; }
+
+.seguradoras-parceiras ol {
+  padding-left: 15px; }
+
+.seguradoras-parceiras > h1 {
+  font-size: 36px; }
+
+.seguradoras-parceiras li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 34px 13px; }
+
+.relacionados {
+  background-color: #efeded;
+  padding-top: 38px;
+  margin-top: 10px; }
+
+.relacionados .carousel-inner {
+  height: 266px; }
+
+.relacionados .carousel-indicators {
+  bottom: 41px; }
+
+.relacionados .carousel-indicators li {
+  border: 1px solid #bbb;
+  background: #bbb; }
+
+.relacionados .carousel-indicators .active {
+  background-color: #888; }
+
+.relacionados .carousel > footer {
+  margin-bottom: 43px; }
+
+.relacionados .carousel > footer > a strong {
+  text-transform: uppercase; }
+
+.relacionados article > footer {
+  padding-right: 20px; }
+
+.relacionados article > footer > a {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: right;
+  color: #f7b334;
+  font-size: 13px;
+  font-weight: 700; }
+
+.relacionados article > footer > a .glyphicon {
+  font-size: 8px;
+  top: 0; }
+
+.posts-recentes time {
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px; }
+
+.posts-recentes h3 {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -1px;
+  color: #9c9a95; }
+
+.posts-recentes article {
+  padding: 0; }
+
+.posts-recentes p {
+  font-size: 14px; }
+
+.posts-recentes time span {
+  display: block;
+  padding: 8px;
+  font-family: "open-sans-n3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  vertical-align: center;
+  width: 38px; }
+
+.posts-recentes .day {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: #8f8e89;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  height: 40px; }
+
+.posts-recentes .month {
+  font-family: "open-sans-i3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f7b334;
+  color: white;
+  font-size: 13px;
+  line-height: 5px;
+  font-weight: 300;
+  margin-top: 3px;
+  height: 20px; }
+
+.depoimentos {
+  padding-left: 0; }
+
+.depoimentos blockquote {
+  background-color: #f7b334;
+  border: 1px solid #f7b334;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 0px; }
+
+.depoimentos blockquote span {
+  color: white;
+  font-size: 17px;
+  font-style: italic;
+  padding: 0;
+  display: block;
+  margin: 12px 29px; }
+
+.depoimentos blockquote span:before {
+  font-family: "Trebuchet MS", serif;
+  font-size: 46pt;
+  color: white;
+  font-weight: normal;
+  content: "“";
+  line-height: 46pt;
+  position: absolute;
+  margin-top: -8px;
+  padding: 0;
+  text-indent: 0;
+  margin-left: -33px; }
+
+.ie .depoimentos blockquote span:before {
+  margin-left: -29px; }
+
+.depoimentos blockquote span:after {
+  font-family: "Trebuchet MS", serif;
+  font-size: 46pt;
+  color: white;
+  font-weight: normal;
+  content: "”";
+  line-height: 46pt;
+  position: absolute;
+  padding: 0;
+  text-indent: 0;
+  margin-left: -6px; }
+
+.depoimentos blockquote .seta {
+  display: block;
+  position: absolute;
+  border-bottom: 0;
+  border-top: 14px solid #f7b334;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  margin-left: 26px; }
+
+.depoimentos figure {
+  padding: 5px;
+  padding-top: 20px; }
+
+.depoimentos figcaption {
+  margin-top: 25px; }
+
+.depoimentos figcaption img {
+  border: 2px solid white; }
+
+.depoimentos figcaption .autor {
+  margin-top: 10px;
+  display: block;
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 17px; }
+
+.depoimentos figcaption b {
+  font-size: 17px; }

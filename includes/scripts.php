@@ -1,4 +1,4 @@
-<script type="text/javascript" src="assets/js/application.min.js"></script>
+<script type="text/javascript" src="static/v3/scripts/application.min.js"></script>
 
 <!-- Required for Social Sharing -->	
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>

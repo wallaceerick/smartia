@@ -11,13 +11,13 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-		<link rel="shortcut icon" href="assets/images/favico.ico">
-		<link rel="apple-touch-icon-precomposed" href="assets/images/layout/icon-ios.png">
+		<link rel="shortcut icon" href="static/v3/images/favico.ico">
+		<link rel="apple-touch-icon-precomposed" href="static/v3/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/style.css" media="all" />
 		
 		<!--[if IE 8]>
-			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
+			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
 		<![endif]-->
 		
 		<!-- Typekit -->
@@ -64,7 +64,7 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside">
 						<div class="product-type">
-							<img src="assets/images/icon-caminhao.gif" alt="" />
+							<img src="static/v3/images/icon-caminhao.gif" alt="" />
 							<h2>Seu caminhão precisa de seguro?</h2>
 							<p>Agora no site da Smartia você pode solicitar online a cotação do seguro do seu caminhão. Contando com oito seguradoras, a cotação é simultânea e você pode comprar os valores sem sair de casa.</p>
 							<br />
@@ -141,7 +141,7 @@
 							<li><a class="last" href="#">Dicionário do “Segurês”</a></li>
 						</ul>
 						<div class="aside-box">
-							<img src="assets/images/compre-tel.gif" alt="Compre pelo Telefone" />
+							<img src="static/v3/images/compre-tel.gif" alt="Compre pelo Telefone" />
 							<span class="tel"><strong>0800</strong> 762 7842</span>
 							<span class="small">Ou também através do nosso CHAT.</span>
 							<a href="#" class="chat-on">Chat On-line</a>

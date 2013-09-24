@@ -1,6 +1,6 @@
 module.exports = function(grunt){
 
-    //ConfiguraÃ§Ã£o
+    //Configuração
     grunt.initConfig({
 
         //Minficar JS
@@ -12,15 +12,15 @@ module.exports = function(grunt){
             scripts: {
                 files: {
                     //Arquivo de Destino
-                    'assets/js/application.min.js': [
+                    'static/v3/scripts/application.min.js': [
                         //Arquivos Inclusos 
-                        'assets/js/_jquery.js',
-                        'assets/js/_bootstrap.js',  
-                        'assets/js/_dropdown.js',  
-                        'assets/js/_select.js',  
-                        'assets/js/_maskedinput.js',
-                        'assets/js/_fileupload.js',
-                        'assets/js/_custom.js'
+                        'static/v3/scripts/_jquery.js',
+                        'static/v3/scripts/_bootstrap.js',  
+                        'static/v3/scripts/_dropdown.js',  
+                        'static/v3/scripts/_select.js',  
+                        'static/v3/scripts/_maskedinput.js',
+                        'static/v3/scripts/_fileupload.js',
+                        'static/v3/scripts/_custom.js'
                     ]
                 },
                 options: {
@@ -31,36 +31,17 @@ module.exports = function(grunt){
             ie: {
                 files: {
                     //Arquivo de Destino
-                    'assets/js/ie8.min.js': [
+                    'static/v3/scripts/ie8.min.js': [
                         //Arquivos Inclusos 
-                        'assets/js/_html5.js',
-                        'assets/js/_respond.js',  
-                        'assets/js/_mediaqueries.js'
+                        'static/v3/scripts/_html5.js',
+                        'static/v3/scripts/_respond.js',  
+                        'static/v3/scripts/_mediaqueries.js'
                     ]
                 },
                 options: {
                     banner: '/*\n***********************\nSmartia: IE 8 JS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\nAuthor: Wallace Erick / Guilherme Ventura\nAuthor URL: http://www.wallaceerick.com.br/ http://www.guilhermeventura.com.br\n***********************\n*/\n'
                 }
             }
-        },
-
-        //Compass
-        compass: {
-            dist: {
-                options: {
-                    sassDir:         'assets/css',
-                    cssDir:          'assets/css',
-                    imagesDir:       'assets/images', 
-                    fontsDir:        'assets/fonts',
-                    javascriptsDir:  'assets/js',
-                    outputStyle:     'expanded', 
-                    environment:     'development',
-                    relativeAssets:  true,
-                    noLineComments:  true,
-                    //specify:        'assets/css/style.scss',
-                    //banner:         '/*\n***********************\nSmartia: Application CSS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\nAuthor: Wallace Erick / Guilherme Ventura\nAuthor URL: http://www.wallaceerick.com.br/ http://www.guilhermeventura.com.br\n***********************\n*/'
-                }
-            }, 
         },
 
         //Minificar Imagens
@@ -71,8 +52,8 @@ module.exports = function(grunt){
                 },
                 files: [{
                     expand: true,      
-                    cwd:  'assets/images/',
-                    dest: 'assets/images/',
+                    cwd:  'static/v3/images/',
+                    dest: 'static/v3/images/',
                     src: ['**/*.png', '**/*.jpg']
                 }],
             }
@@ -85,11 +66,10 @@ module.exports = function(grunt){
             },
             dist: {
                 files: [
-                    'assets/js/*.js',
-                    'assets/css/**/*.css',
-                    'assets/css/**/*.scss'
+                    'static/v3/scripts/*.js',
+                    'static/v3/styles/**/*.css'
                 ],
-                tasks: ['uglify', 'compass'] 
+                tasks: ['uglify'] 
             }
         } 
 
@@ -97,16 +77,13 @@ module.exports = function(grunt){
  
     //Plugins do Grunt
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-ftp-deploy');
 
-    //Tarefas que serÃ£o Executadas
+    //Tarefas que serão Executadas
     grunt.registerTask('default', 
         [
-            'uglify',
-            'compass'
+            'uglify'
         ]
     );
     grunt.registerTask('w', ['watch']); 

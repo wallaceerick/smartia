@@ -11,13 +11,13 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-		<link rel="shortcut icon" href="assets/images/favico.ico">
-		<link rel="apple-touch-icon-precomposed" href="assets/images/layout/icon-ios.png">
+		<link rel="shortcut icon" href="static/v3/images/favico.ico">
+		<link rel="apple-touch-icon-precomposed" href="static/v3/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/style.css" media="all" />
 		
 		<!--[if IE 8]>
-			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
+			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
 		<![endif]-->
 		
 		<!-- Typekit -->

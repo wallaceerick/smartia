@@ -11,13 +11,19 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-		<link rel="shortcut icon" href="assets/images/favico.ico">
+		<link rel="shortcut icon" href="static/v3/images/favico.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/images/layout/icon-ios.png">
 		
-		<link rel="stylesheet" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/reset.css" media="all" />   
+		<link rel="stylesheet" href="static/v3/styles/bootstrap.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/common.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/home.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/header.css" media="all" /> 
+		<link rel="stylesheet" href="static/v3/styles/footer.css" media="all" />
+		<link rel="stylesheet" href="static/v3/styles/carousel.css" media="all" /> 
 		
 		<!--[if IE 8]>
-			<script type="text/javascript" src="assets/js/ie8.min.js"></script>
+			<script type="text/javascript" src="static/v3/scripts/ie8.min.js"></script>
 		<![endif]-->
 		
 		<!-- Typekit -->
@@ -160,7 +166,7 @@
 						</ul>
 						
 						<div class="cobertura-atendimento">
-							<img src="assets/images/home/mapa-cobertura.png" alt="Atendemos em todo o país">
+							<img src="static/v3/images/home/mapa-cobertura.png" alt="Atendemos em todo o país">
 						</div>
 					</section>
 					
@@ -169,14 +175,14 @@
 					<section class="seguradoras-parceiras">
 						<h1>Contamos com a parceria das <b>maiores seguradoras do mercado</b></h1>
 						<ol>
-							<li><img src="assets/images/home/seguradoras/seg_allianz.png" alt="Allianz"></li>
-							<li><img src="assets/images/home/seguradoras/seg_cardif.png" alt="BNP Paribas Cardif"></li>
-							<li><img src="assets/images/home/seguradoras/seg_bradesco.png" alt="Bradesco Seguros"></li>
-							<li><img src="assets/images/home/seguradoras/seg_hdi.png" alt="HDI Seguros"></li>
-							<li><img src="assets/images/home/seguradoras/seg_liberty.png" alt="Liberty Seguros"></li>
-							<li><img src="assets/images/home/seguradoras/seg_maritima.png" alt="Marítima Seguros"></li>
-							<li><img src="assets/images/home/seguradoras/seg_tokio.png" alt="Tokio Marine Seguradora"></li>
-							<li><img src="assets/images/home/seguradoras/seg_zurich.png" alt="Zurich Seguros"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_allianz.png" alt="Allianz"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_cardif.png" alt="BNP Paribas Cardif"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_bradesco.png" alt="Bradesco Seguros"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_hdi.png" alt="HDI Seguros"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_liberty.png" alt="Liberty Seguros"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_maritima.png" alt="Marítima Seguros"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_tokio.png" alt="Tokio Marine Seguradora"></li>
+							<li><img src="static/v3/images/home/seguradoras/seg_zurich.png" alt="Zurich Seguros"></li>
 						</ol>
 					</section>
 				</div>
@@ -279,7 +285,7 @@
 									<b class="seta"></b>
 								</blockquote>
 								<figcaption class="clearfix">
-									<img src="assets/images/home/depoimentos/sem-foto.png" alt="Edson Aversa Rinbon"><span class="autor">Edson Aversao Rinbon</span><span class="localidade">Itajaí - RS</span>
+									<img src="static/v3/images/home/depoimentos/sem-foto.png" alt="Edson Aversa Rinbon"><span class="autor">Edson Aversao Rinbon</span><span class="localidade">Itajaí - RS</span>
 								</figcaption>
 							</figure>
 							<figure class="item">
@@ -290,7 +296,7 @@
 									<b class="seta"></b>
 								</blockquote>
 								<figcaption class="clearfix">
-									<img src="sassetsimages/home/depoimentos/sem-foto.png" alt="Eliézer Ferreira"><span class="autor">Eliézer Ferreira</span><span class="localidade">Sorocaba - SP</span>
+									<img src="static/v3/images/home/depoimentos/sem-foto.png" alt="Eliézer Ferreira"><span class="autor">Eliézer Ferreira</span><span class="localidade">Sorocaba - SP</span>
 								</figcaption>
 							</figure>
 							<figure class="item">
@@ -301,7 +307,7 @@
 									<b class="seta"></b>
 								</blockquote>
 								<figcaption class="clearfix">
-									<img src="sassetsimages/home/depoimentos/sem-foto.png" alt="Eliézer Ferreira"><span class="autor">Marcos Vinicius</span><span class="localidade">Rio de Janeiro - RJ</span>
+									<img src="static/v3/images/home/depoimentos/sem-foto.png" alt="Eliézer Ferreira"><span class="autor">Marcos Vinicius</span><span class="localidade">Rio de Janeiro - RJ</span>
 								</figcaption>
 							</figure>
 						</div>
