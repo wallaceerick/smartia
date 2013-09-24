@@ -1,0 +1,898 @@
+section.sobre-o-smartia > h1 {
+  font-size: 36px;
+  font-size: 38px;
+  letter-spacing: -2px; }
+
+.como-funciona {
+  margin-top: 30px;
+  background-image: url("../images/home/como-funciona.png");
+  background-repeat: no-repeat;
+  background-position-x: 36px;
+  height: 276px;
+  margin-bottom: 45px; }
+
+.como-funciona > div {
+  margin-top: 213px;
+  margin-left: 63px;
+  display: inline-block;
+  bottom: 10px;
+  color: #f7b334;
+  width: 145px;
+  vertical-align: top;
+  text-align: center; }
+
+.como-funciona > div span {
+  font-size: 30px;
+  font-family: "alwyn-new-web-n5", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: -1px; }
+
+.como-funciona > div.resultado {
+  margin-left: 98px;
+  width: 216px;
+  margin-top: 233px;
+  line-height: 20px; }
+
+.como-funciona > div.resultado span {
+  font-size: 24px;
+  letter-spacing: -1px; }
+
+.como-funciona > div.resultado b {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0; }
+
+.sobre-o-smartia {
+  margin-top: 75px; }
+
+.sobre-o-smartia h1 {
+  margin-bottom: 26px; }
+
+.sobre-o-smartia p {
+  text-align: center; }
+
+.vantagens {
+  margin-top: 16px; }
+
+.vantagens ul {
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.vantagens li {
+  font-family: "open-sans-n1", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  color: #9c9a95; }
+
+.vantagens .segunda-coluna {
+  margin-left: -39px; }
+
+.vantagens .cobertura-atendimento img {
+  margin-top: -48px;
+  float: right; }
+
+.seguradoras-parceiras {
+  margin-top: 36px; }
+
+.seguradoras-parceiras ol {
+  padding-left: 15px; }
+
+.seguradoras-parceiras > h1 {
+  font-size: 36px; }
+
+.seguradoras-parceiras li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 34px 13px; }
+
+.relacionados {
+  background-color: #efeded;
+  padding-top: 38px;
+  margin-top: 10px; }
+
+.relacionados .carousel-inner {
+  height: 266px; }
+
+.relacionados .carousel-indicators {
+  bottom: 41px; }
+
+.relacionados .carousel-indicators li {
+  border: 1px solid #bbb;
+  background: #bbb; }
+
+.relacionados .carousel-indicators .active {
+  background-color: #888; }
+
+.relacionados .carousel > footer {
+  margin-bottom: 43px; }
+
+.relacionados .carousel > footer > a strong {
+  text-transform: uppercase; }
+
+.relacionados article > footer {
+  padding-right: 20px; }
+
+.relacionados article > footer > a {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: right;
+  color: #f7b334;
+  font-size: 13px;
+  font-weight: 700; }
+
+.relacionados article > footer > a .glyphicon {
+  font-size: 8px;
+  top: 0; }
+
+.posts-recentes time {
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px; }
+
+.posts-recentes h3 {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -1px;
+  color: #9c9a95; }
+
+.posts-recentes article {
+  padding: 0; }
+
+.posts-recentes p {
+  font-size: 14px; }
+
+.posts-recentes time span {
+  display: block;
+  padding: 8px;
+  font-family: "open-sans-n3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  vertical-align: center;
+  width: 38px; }
+
+.posts-recentes .day {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: #8f8e89;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  height: 40px; }
+
+.posts-recentes .month {
+  font-family: "open-sans-i3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f7b334;
+  color: white;
+  font-size: 13px;
+  line-height: 5px;
+  font-weight: 300;
+  margin-top: 3px;
+  height: 20px; }
+
+.depoimentos {
+  padding-left: 0; }
+
+.depoimentos blockquote {
+  background-color: #f7b334;
+  border: 1px solid #f7b334;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 0px; }
+
+.depoimentos blockquote span {
+  color: white;
+  font-size: 17px;
+  font-style: italic;
+  padding: 0;
+  display: block;
+  margin: 12px 29px; }
+
+.depoimentos blockquote span:before {
+  font-family: "Trebuchet MS", serif;
+  font-size: 46pt;
+  color: white;
+  font-weight: normal;
+  content: "“";
+  line-height: 46pt;
+  position: absolute;
+  margin-top: -8px;
+  padding: 0;
+  text-indent: 0;
+  margin-left: -33px; }
+
+.ie .depoimentos blockquote span:before {
+  margin-left: -29px; }
+
+.depoimentos blockquote span:after {
+  font-family: "Trebuchet MS", serif;
+  font-size: 46pt;
+  color: white;
+  font-weight: normal;
+  content: "”";
+  line-height: 46pt;
+  position: absolute;
+  padding: 0;
+  text-indent: 0;
+  margin-left: -6px; }
+
+.depoimentos blockquote .seta {
+  display: block;
+  position: absolute;
+  border-bottom: 0;
+  border-top: 14px solid #f7b334;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  margin-left: 26px; }
+
+.depoimentos figure {
+  padding: 5px;
+  padding-top: 20px; }
+
+.depoimentos figcaption {
+  margin-top: 25px; }
+
+.depoimentos figcaption img {
+  border: 2px solid white; }
+
+.depoimentos figcaption .autor {
+  margin-top: 10px;
+  display: block;
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 17px; }
+
+.depoimentos figcaption b {
+  font-size: 17px; }
+
+/*
+OUR STYLES
+*/
+/* Page Titles */
+.page-title {
+  width: 100%;
+  height: 115px;
+  background: #656565; }
+  .page-title h1 {
+    display: block;
+    margin: 0;
+    padding: 0 0 0 5px;
+    color: #fff;
+    font-family: "open-sans-n3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 40px; }
+
+.single-page {
+  position: relative; }
+
+.big-simule-button {
+  display: inline-block;
+  font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white !important;
+  text-decoration: none !important;
+  padding: 16px 40px 17px 30px;
+  width: 260px;
+  height: 56px;
+  background: #90ca1c;
+  font-size: 18px;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px; }
+  .big-simule-button:hover {
+    background: #b5e952; }
+  .big-simule-button:before {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 9px solid #fff; }
+
+.double-border {
+  width: 100%;
+  height: 6px;
+  border-bottom: none;
+  display: block;
+  clear: both;
+  background: #d2d2d2;
+  position: relative;
+  margin: 0 auto; }
+  .double-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 6px;
+    background: #f6b332; }
+
+.page-sharer {
+  padding-top: 25px;
+  height: 55px; }
+  .page-sharer .google, .page-sharer .facebook {
+    display: block;
+    float: left;
+    margin-right: 10px; }
+
+/* Text of Pages */
+.text-content {
+  padding: 22px 0 100px 0;
+  font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #656565; }
+
+/* APP Mobile */
+.image-app {
+  width: 100%;
+  height: 352px;
+  display: block;
+  position: relative;
+  background: url("../images/bg-app.gif") 0 0 no-repeat; }
+  .image-app span {
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    bottom: 0; }
+    .image-app span.left {
+      width: 307px;
+      height: 309px;
+      left: 15px;
+      background: url("../images/app-left.png") 0 0 no-repeat; }
+    .image-app span.right {
+      width: 221px;
+      height: 298px;
+      right: 40px;
+      background: url("../images/app-right.png") 0 0 no-repeat; }
+    .image-app span.text {
+      width: 415px;
+      height: 196px;
+      left: 50%;
+      margin-left: -210px;
+      bottom: 115px;
+      background: url("../images/app-text.gif") 0 0 no-repeat; }
+  .image-app .avaliable {
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    bottom: 0;
+    width: 170px;
+    height: 55px;
+    left: 50%;
+    margin-left: -85px;
+    bottom: 40px;
+    background: url("../images/avaliable.gif") 0 0 no-repeat;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in; }
+    .image-app .avaliable:hover {
+      bottom: 42px; }
+
+/* Produtos -> Seguros */
+.page-with-aside {
+  width: 70%;
+  float: left;
+  margin-bottom: 60px; }
+  .page-with-aside.with-padding {
+    padding-top: 22px; }
+  .page-with-aside h3 {
+    font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #8f8d87; }
+  .page-with-aside p {
+    font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #676767; }
+  .page-with-aside a {
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in; }
+  .page-with-aside a.red {
+    color: #c7232d; }
+    .page-with-aside a.red:hover {
+      color: #9c1b23; }
+  .page-with-aside hr.dotted {
+    clear: both;
+    display: block;
+    content: "";
+    width: 90%;
+    height: 0;
+    border: none;
+    border-top: 1px dotted #e2e2e2;
+    margin-left: 10%;
+    background: none !important; }
+    .page-with-aside hr.dotted.full {
+      width: 100%;
+      margin-left: 0; }
+  .page-with-aside hr.shadow {
+    clear: both;
+    display: block;
+    width: 658px;
+    height: 12px;
+    border: none;
+    margin: 25px auto;
+    background: url("../images/shadow.jpg") 0 0 no-repeat; }
+  .page-with-aside .row.extra-padding {
+    padding-top: 10px; }
+
+.product-type {
+  position: relative;
+  height: auto;
+  min-height: 110px;
+  padding-bottom: 5px;
+  margin-bottom: 10px; }
+  .product-type:before {
+    content: "";
+    width: 90%;
+    height: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    border-top: 1px dotted #e2e2e2; }
+  .product-type.no-border {
+    padding-top: 50px; }
+    .product-type.no-border:before {
+      display: none; }
+  .product-type img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px; }
+    .product-type img.send-icon {
+      margin-right: 30px;
+      margin-bottom: 100px; }
+  .product-type h2 {
+    font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f3b030;
+    padding: 13px 0 0 0; }
+    .product-type h2.sended {
+      font-family: "alwyn-new-web-n7", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      color: #8f8d87;
+      font-size: 35px;
+      margin: 0;
+      padding: 0; }
+      .product-type h2.sended span {
+        font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        color: #f6b332; }
+  .product-type h3 {
+    font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #8f8d87;
+    font-size: 24px;
+    margin: 0;
+    padding: 4px 0; }
+
+.fl-2 {
+  padding-left: 5px;
+  float: left;
+  width: 50px;
+  height: 50px; }
+
+.aside-with-page {
+  float: right;
+  width: 25%;
+  margin-bottom: 250px; }
+  .aside-with-page img {
+    margin: 0 auto; }
+
+.aside-links {
+  padding-top: 15px; }
+  .aside-links li {
+    list-style-type: none;
+    list-style: none; }
+    .aside-links li a {
+      display: block;
+      font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      border-bottom: 1px solid #c3c3c3;
+      padding: 12px 0 12px 30px;
+      font-weight: 400;
+      font-size: 13px;
+      color: #676767;
+      text-decoration: none;
+      background: url("../images/left-ye.gif") 11px 17px no-repeat;
+      transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in; }
+      .aside-links li a:hover {
+        color: #2c2c2c;
+        background-position: 15px 17px; }
+      .aside-links li a.active {
+        font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        color: #f3b030; }
+      .aside-links li a.last {
+        border: none; }
+
+.aside-box {
+  padding: 20px 14px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px; }
+  .aside-box span.tel {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #f4b241;
+    font-size: 34px;
+    letter-spacing: -2px; }
+    .aside-box span.tel strong {
+      font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      color: #999; }
+  .aside-box span.small {
+    display: block;
+    clear: both;
+    text-align: center;
+    font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #a8a9ab;
+    font-size: 13px;
+    letter-spacing: -1px; }
+  .aside-box a.chat-on {
+    display: block;
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-indent: -9999px;
+    margin: 15px auto 0 auto;
+    background: #f6b332 url("../images/bt-chat.png") center center no-repeat;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in; }
+    .aside-box a.chat-on:hover {
+      background-color: #f4a610; }
+  .aside-box h2.seguradoras {
+    display: block;
+    text-indent: -9999px;
+    width: 142px;
+    height: 36px;
+    margin-bottom: 0 auto 10px auto;
+    background: url("../images/seguradoras.gif") center center no-repeat; }
+  .aside-box h2.segures {
+    display: block;
+    text-indent: -9999px;
+    width: 182px;
+    height: 36px;
+    margin: 0 auto 10px auto;
+    background: url("../images/segures.gif") center center no-repeat; }
+  .aside-box ul.seguradoras, .aside-box ul.segures {
+    padding: 0 6px; }
+    .aside-box ul.seguradoras li, .aside-box ul.segures li {
+      position: relative;
+      padding: 18px;
+      padding-left: 50px;
+      border-bottom: 1px dotted #e2e2e2;
+      border-top: 1px dotted #e2e2e2;
+      list-style: none; }
+      .aside-box ul.seguradoras li.first, .aside-box ul.segures li.first {
+        border-top: none; }
+      .aside-box ul.seguradoras li.last, .aside-box ul.segures li.last {
+        border-bottom: none; }
+      .aside-box ul.seguradoras li img.icon, .aside-box ul.segures li img.icon {
+        position: absolute;
+        top: 16px;
+        left: -10px; }
+      .aside-box ul.seguradoras li h3, .aside-box ul.segures li h3 {
+        font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #848689;
+        margin: 0;
+        padding: 0; }
+      .aside-box ul.seguradoras li p, .aside-box ul.segures li p {
+        font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        color: #848689;
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0;
+        padding: 0; }
+        .aside-box ul.seguradoras li p span, .aside-box ul.segures li p span {
+          display: block; }
+      .aside-box ul.seguradoras li a, .aside-box ul.segures li a {
+        font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        color: #f6b332;
+        text-transform: uppercase; }
+  .aside-box ul.segures a {
+    font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f6b332;
+    text-decoration: underline;
+    text-transform: none !important; }
+  .aside-box ul.segures li {
+    padding-left: 18px;
+    height: 165px;
+    text-align: center;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in; }
+    .aside-box ul.segures li:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 56px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #f6b332;
+      transition: all 0.2s ease-in;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in; }
+    .aside-box ul.segures li:hover:after {
+      right: 0; }
+    .aside-box ul.segures li h3 {
+      padding: 5px 0;
+      font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: #f6b332; }
+    .aside-box ul.segures li img {
+      display: block;
+      position: relative; }
+  .aside-box ul.segures span.small {
+    font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #908e88;
+    font-size: 14px !important;
+    display: block;
+    padding: 0;
+    max-width: 195px;
+    letter-spacing: 0;
+    margin: 15px auto 0 auto; }
+    .aside-box ul.segures span.small a {
+      font-size: 14px !important; }
+
+/* Acionando seu Seguro */
+.acionando-seu-seguro h2 {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f6b332;
+  margin-bottom: 15px; }
+  .acionando-seu-seguro h2 span {
+    font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400; }
+.acionando-seu-seguro h3, .acionando-seu-seguro p {
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #848689;
+  margin-bottom: 20px; }
+.acionando-seu-seguro h3 {
+  line-height: 22px; }
+.acionando-seu-seguro p {
+  font-size: 14px; }
+.acionando-seu-seguro ol {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 14px;
+  list-style: lower-alpha;
+  list-style-position: inside; }
+  .acionando-seu-seguro ol li {
+    margin-bottom: 5px; }
+    .acionando-seu-seguro ol li span {
+      font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      color: #848689; }
+    .acionando-seu-seguro ol li ol {
+      padding-top: 25px;
+      list-style-position: inside;
+      list-style-type: decimal; }
+      .acionando-seu-seguro ol li ol li {
+        font-family: "open-sans-i3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 25px; }
+.acionando-seu-seguro ul {
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-size: 18px;
+  list-style: disc;
+  list-style-position: inside; }
+  .acionando-seu-seguro ul.yellow-bullet {
+    color: #f6b332; }
+  .acionando-seu-seguro ul li {
+    margin-bottom: 5px; }
+    .acionando-seu-seguro ul li span {
+      font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      color: #848689;
+      font-size: 16px; }
+    .acionando-seu-seguro ul li.no-bullet {
+      margin-top: 20px;
+      text-indent: 17px;
+      list-style: none; }
+
+/* Dicionário de Segurês */
+.dicionario-de-segures h3 {
+  font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #848689;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px; }
+.dicionario-de-segures form.gray {
+  display: block;
+  margin-top: 15px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px; }
+  .dicionario-de-segures form.gray input {
+    padding: 12px;
+    font-size: 18px; }
+  .dicionario-de-segures form.gray button {
+    margin: 0; }
+.dicionario-de-segures .filter {
+  padding: 15px 5px; }
+  .dicionario-de-segures .filter ol {
+    display: table; }
+    .dicionario-de-segures .filter ol li {
+      float: left;
+      list-style: none;
+      margin-right: 20px; }
+      .dicionario-de-segures .filter ol li.last {
+        margin-right: 0; }
+      .dicionario-de-segures .filter ol li a {
+        font-family: "open-sans-n6", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        color: #848689;
+        font-size: 16px;
+        text-decoration: none;
+        transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in; }
+        .dicionario-de-segures .filter ol li a:hover {
+          color: #525355; }
+        .dicionario-de-segures .filter ol li a.current {
+          font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-weight: bold;
+          color: #f6b332; }
+.dicionario-de-segures .search-result h4 {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #f6b332;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: uppercase; }
+.dicionario-de-segures .search-result p {
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #676767;
+  font-size: 13px;
+  margin-bottom: 15px;
+  line-height: 18px; }
+  .dicionario-de-segures .search-result p span {
+    display: block; }
+    .dicionario-de-segures .search-result p span.head {
+      margin-bottom: 15px; }
+    .dicionario-de-segures .search-result p span.uppercase {
+      text-transform: uppercase; }
+
+/* Páginas Institucionais */
+.institucional .yellow {
+  color: #f6b332 !important; }
+.institucional .mb-15 {
+  margin-bottom: 15px; }
+.institucional img.full-size {
+  max-width: 100%;
+  margin: 10px 0 20px 0; }
+.institucional h1, .institucional h2, .institucional h3, .institucional h4, .institucional h5, .institucional h6 {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #676767;
+  margin: 0;
+  padding: 0; }
+.institucional h1 {
+  font-style: 36px; }
+.institucional h2 {
+  font-style: 28px; }
+.institucional h3 {
+  font-style: 24px; }
+.institucional h4 {
+  font-style: 20px; }
+.institucional h5 {
+  font-style: 17px; }
+.institucional h6 {
+  font-style: 13px; }
+.institucional p {
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #676767;
+  font-size: 13px;
+  margin-bottom: 15px;
+  line-height: 17px; }
+  .institucional p.big {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px; }
+.institucional ul, .institucional ol {
+  list-style-position: inside; }
+.institucional .content-info {
+  display: block;
+  margin-bottom: 50px; }
+  .institucional .content-info h2 {
+    color: #848689;
+    font-size: 16px; }
+  .institucional .content-info p {
+    font-family: "open-sans-i4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #676767;
+    font-size: 16px;
+    line-height: 20px; }
+
+/* Form's */
+.no-margin {
+  margin: 0 -15px 0 0 !important; }
+
+.gray-backgound {
+  padding: 15px;
+  background: #eee;
+  margin: 20px 0;
+  position: relative;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px; }
+  .gray-backgound.for-upload {
+    padding: 8px 15px 3px 15px; }
+
+.formats {
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #979595;
+  font-size: 11px !important; }
+
+.align-right {
+  text-align: right; }
+
+.small-p {
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #979595;
+  font-size: 11px !important;
+  line-height: 15px !important;
+  margin: 0;
+  padding: 5px 0 0 0 !important; }

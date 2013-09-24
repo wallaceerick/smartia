@@ -53,13 +53,14 @@ module.exports = function(grunt){
                     imagesDir:       'assets/images', 
                     fontsDir:        'assets/fonts',
                     javascriptsDir:  'assets/js',
-                    outputStyle:     'compressed',
-                    environment:     'production',
+                    outputStyle:     'expanded', 
+                    environment:     'development',
                     relativeAssets:  true,
+                    noLineComments:  true,
                     //specify:        'assets/css/style.scss',
                     //banner:         '/*\n***********************\nSmartia: Application CSS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\nAuthor: Wallace Erick / Guilherme Ventura\nAuthor URL: http://www.wallaceerick.com.br/ http://www.guilhermeventura.com.br\n***********************\n*/'
                 }
-            }
+            }, 
         },
 
         //Minificar Imagens

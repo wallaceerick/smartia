@@ -304,7 +304,7 @@
 }
 
 .sprite-header, .sprite-adicional{
-    background-image: image-url('sprites/header-normal.png');
+    background-image: url('../images/sprites/header-normal.png');
     background-color: transparent;
     background-repeat: no-repeat;
     position: relative;
@@ -343,7 +343,7 @@
     background-position: -239px 0;
 }
 .sprite-adicional, a:hover .sprite-header {
-    background-image: image-url('sprites/header-over.png');
+    background-image: url('../images/sprites/header-over.png');
     background-color: transparent;
     background-repeat: no-repeat;
 }

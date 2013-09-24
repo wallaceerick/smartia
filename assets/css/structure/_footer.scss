@@ -1,6 +1,6 @@
 .rodape .sprite-dinamico,
 .rodape .sprite-fixo {
-	background-image: url(../images/sprites/footer-normal.png); 
+	background-image: url('../images/sprites/footer-normal.png'); 
 	background-color: transparent; 
 	background-repeat: no-repeat;
 	position: relative;
@@ -22,7 +22,7 @@
 .rodape .share-twitter { width: 32px; height: 32px; background-position: 0 -66px; }
 .rodape .share-youtube { width: 32px; height: 32px; background-position: 0 0; }
 
-.rodape a:hover .sprite-dinamico { background-image: url(../images/sprites/footer-over.png); background-color: transparent; background-repeat: no-repeat; }
+.rodape a:hover .sprite-dinamico { background-image: url('../images/sprites/footer-over.png'); background-color: transparent; background-repeat: no-repeat; }
 .rodape a:hover .share-facebook { width: 32px; height: 32px; background-position: 0 0; }
 .rodape a:hover .share-google-plus { width: 32px; height: 32px; background-position: -33px 0; }
 .rodape a:hover .share-linkedin { width: 32px; height: 32px; background-position: -66px 0; }

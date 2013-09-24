@@ -1,0 +1,366 @@
+.header-wrapper {
+  height: 123px; }
+
+.cabecalho {
+  padding-top: 18px;
+  height: 123px;
+  background-color: white; }
+
+.cabecalho .logo {
+  float: left;
+  margin-top: -17px;
+  margin-left: -14px; }
+
+.cabecalho .logo.compacto {
+  display: none; }
+
+.cabecalho .atalhos,
+.cabecalho .menubar {
+  float: right; }
+
+.cabecalho .atalhos {
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 15px;
+  line-height: 30px; }
+
+.cabecalho .atalhos .nav li {
+  margin-left: 9px; }
+
+.cabecalho .atalhos li > a {
+  padding: 0px 7px;
+  color: #999999; }
+
+.cabecalho .atalhos .atend-fone {
+  margin-left: -3px;
+  margin-bottom: 4px;
+  text-indent: -9999px;
+  outline: 0;
+  white-space: nowrap; }
+
+.cabecalho .atalhos a:hover {
+  background-color: #f6b331;
+  color: white; }
+
+.cabecalho .atalhos a:hover strong,
+.cabecalho .atalhos a:hover strong span {
+  color: white; }
+
+.cabecalho .atalhos a:hover b.caret {
+  border-top-color: white;
+  border-bottom-color: white; }
+
+.cabecalho .menubar {
+  text-transform: uppercase;
+  font-family: "alwyn-new-web-n7", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-rendering: optimizeSpeed; }
+
+.cabecalho .menubar .menuitens > li {
+  line-height: 13px; }
+
+.cabecalho .menubar .menuitens > li > a {
+  padding: 10px 9px;
+  color: #928f88; }
+
+.cabecalho .menubar .menuitens > li > a > b {
+  font-size: 12px;
+  margin-left: 4px;
+  color: #f4b430; }
+
+.cabecalho .menubar .menuitens > li > a:hover,
+.cabecalho .menubar .menuitens > li.open > a {
+  background-color: #908d88;
+  color: white; }
+
+.cabecalho .menubar .menuitens > li > a:hover .glyphicon,
+.cabecalho .menubar .menuitens > li.open > a .glyphicon {
+  color: white; }
+
+.cabecalho .menubar .menuitens > li.social {
+  line-height: 41px;
+  margin-left: 8px;
+  width: 94px; }
+
+.cabecalho .menubar .menuitens > li.social > div {
+  display: inline-block; }
+
+.cabecalho .menubar .menuitens li.simular-agora {
+  display: none; }
+
+.cabecalho .menubar .menuitens li.simular-agora a {
+  color: white;
+  text-decoration: none; }
+
+.cabecalho .facebook .fb-wrapper,
+.cabecalho .facebook .fb_iframe_widget_lift {
+  width: 55px;
+  height: 27px;
+  overflow: hidden; }
+
+.os-x .facebook .fb-wrapper,
+.ios .facebook .fb-wrapper,
+.firefox.linux .facebook .fb-wrapper {
+  width: 58px; }
+
+.cabecalho .dropdown-menu {
+  background-color: #908d88;
+  margin-top: -4px;
+  border: 0px;
+  border-top-left-radius: 0px; }
+
+.cabecalho .dropdown-menu a {
+  color: white;
+  text-transform: none;
+  padding: 7px 10px; }
+
+.cabecalho .dropdown-menu a:hover {
+  background-color: #64635f; }
+
+.cabecalho .menubar .divider {
+  margin: 0px 10px; }
+
+.cabecalho .menubar .simular-agora a.btn {
+  background: #7fc212;
+  padding: 7px 14px !important;
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 400;
+  font-family: "alwyn-new-web-n4", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: -5px; }
+
+.cabecalho .menubar .simular-agora a.btn:hover {
+  background: #a5e12e; }
+
+.affix {
+  position: fixed;
+  z-index: 900;
+  width: 100%; }
+
+.cabecalho.affix {
+  height: 67px; }
+
+.cabecalho.affix .logo {
+  display: none; }
+
+.cabecalho.affix .logo.compacto {
+  display: block; }
+
+.cabecalho.affix .atalhos {
+  display: none; }
+
+.cabecalho.affix .atalhos {
+  display: block;
+  float: right;
+  margin-left: 0; }
+
+.cabecalho.affix .atalhos li {
+  display: none; }
+
+.cabecalho.affix .atalhos li.chat-online {
+  display: inline-block; }
+
+.cabecalho.affix .atalhos li.atalho-atendimento {
+  display: inline-block; }
+
+.cabecalho.affix .menubar {
+  float: right; }
+
+.cabecalho.affix .menubar > ul > li {
+  display: none; }
+
+.cabecalho.affix .menubar .menuitens > li.social {
+  margin-left: 0px;
+  width: 198px;
+  text-align: center; }
+
+.cabecalho.affix .menubar .menuitens > li.social,
+.cabecalho.affix .menubar .menuitens > li.simular-agora {
+  display: inline-block; }
+
+.cabecalho.affix .facebook .fb-wrapper,
+.cabecalho.affix .facebook .fb_iframe_widget_lift {
+  width: 123px; }
+
+.ios .cabecalho.affix .facebook .fb-wrapper,
+.os-x .cabecalho.affix .facebook .fb-wrapper,
+.firefox.linux .cabecalho.affix .facebook .fb-wrapper {
+  width: 140px; }
+
+.cabecalho.affix {
+  -webkit-box-shadow: 0px 4px 5px -2px #c8c8c8;
+  box-shadow: 0px 4px 5px -2px #c8c8c8; }
+
+.ie8 .cabecalho.affix {
+  behavior: url(ie8-pie.htc); }
+
+.modal-atendimento {
+  text-align: center; }
+
+.modal-atendimento .modal-header {
+  background-color: #F7B334;
+  height: 40px;
+  border: none;
+  padding: 13px; }
+
+.modal-atendimento .close {
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  filter: none;
+  text-shadow: none;
+  font-family: "open-sans-n6", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px; }
+
+.modal-atendimento .close .glyphicon {
+  font-size: 15px; }
+
+.modal-atendimento .modal-body {
+  padding: 20px;
+  padding-bottom: 0; }
+
+.modal-atendimento .modal-body .inline {
+  display: inline-block;
+  margin-left: 50px;
+  text-align: left; }
+
+.modal-atendimento h1 {
+  font-family: "alwyn-new-web-n1", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #F7B334;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 30px;
+  text-transform: lowercase;
+  color: #f6b333; }
+
+.modal-atendimento h1 b {
+  font-family: "alwyn-new-web-n5", "alwyn-new-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #999;
+  font-size: 30px;
+  color: #9C9A95; }
+
+.modal-atendimento hr {
+  background-size: 110%; }
+
+.modal-atendimento p {
+  font-size: 15px;
+  line-height: 15px;
+  line-height: 15px;
+  font-family: "open-sans-n3", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px; }
+
+.modal-atendimento p.subtitulo {
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 0; }
+
+.modal-atendimento p.central {
+  font-size: 18px; }
+
+.modal-atendimento h2 {
+  font-size: 55px;
+  margin-top: -2px;
+  font-family: "open-sans-n5", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0px;
+  padding-left: 9px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #f6b333 !important; }
+
+.modal-atendimento h2 b {
+  color: #9C9A95 !important; }
+
+.modal-atendimento p.horarios {
+  font-size: 13px;
+  font-weight: 600;
+  color: #F6B333;
+  padding: 7px 20px;
+  letter-spacing: 0px; }
+
+.modal-atendimento .modal-dialog {
+  width: 496px !important; }
+
+.sprite-header, .sprite-adicional {
+  background-image: url("../images/sprites/header-normal.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -4px; }
+
+.atend-fone {
+  width: 160px;
+  height: 24px;
+  background-position: 0 0; }
+
+.atend-icon {
+  width: 23px;
+  height: 23px;
+  background-position: -161px 0; }
+
+.blog-icon {
+  width: 23px;
+  height: 23px;
+  background-position: -185px 0; }
+
+.chat-icon {
+  width: 29px;
+  height: 23px;
+  background-position: -209px 0; }
+
+.mobile-icon {
+  width: 15px;
+  height: 23px;
+  background-position: -239px 0; }
+
+.sprite-adicional, a:hover .sprite-header {
+  background-image: url("../images/sprites/header-over.png");
+  background-color: transparent;
+  background-repeat: no-repeat; }
+
+a:hover .atend-fone {
+  width: 160px;
+  height: 24px;
+  background-position: 0 0; }
+
+a:hover .atend-icon {
+  width: 23px;
+  height: 23px;
+  background-position: 0 -25px; }
+
+a:hover .blog-icon {
+  width: 23px;
+  height: 23px;
+  background-position: -24px -25px; }
+
+a:hover .chat-icon {
+  width: 29px;
+  height: 23px;
+  background-position: -48px -25px; }
+
+a:hover .mobile-icon {
+  width: 15px;
+  height: 23px;
+  background-position: -78px -25px; }
+
+.sprite-atendente {
+  width: 56px;
+  height: 50px;
+  background-position: -161px 0;
+  position: absolute;
+  top: 24px;
+  margin-left: -64px; }
