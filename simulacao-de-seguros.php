@@ -3,7 +3,7 @@
 		
 	<head>
 		<meta charset="UTF-8">
-		<title>Franquia de Seguros</title>
+		<title>Simulação de Seguros</title>
 		
 		<meta name="author" content="Smartia" />
 		<meta name="keywords" content="" />
@@ -56,9 +56,9 @@
 			<div class="container single-page">		
 			<ol class="breadcrumb">
 			  <li><a href="#">Home</a></li> 
-			  <li class="active">Franquia de Seguros</li>
+			  <li class="active">Simulação de Seguros</li>
 			</ol>
-			<h1>Franquia de Seguros</h1>
+			<h1>Simulação de Seguros</h1>
 			<a href="#" class="big-simule-button">Simule agora seu seguro</a>
 			</div>
 		</div>
@@ -70,25 +70,17 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<section class="page-with-aside with-padding institucional"> 
 						
-						<h3 class="yellow big mb-15">Franquias</h3>
-						<p>Ao contratar seu seguro, automaticamente é oferecido uma determinada quantidade de parcelas. Na linguagem do seguro, essas parcelas são chamadas de franquia, que nada mais é que participação obrigatória do segurado em caso de sinistro com seu veículo. </p>
+						<h3 class="yellow big mb-15">Simulação</h3>
+						<p>Umas das melhores vantagens de fazer uma cotação online é o fato de que você pode analisar e comparar ao mesmo tempo os preços das melhores seguradoras do país, que fazem suas ofertas abertamente em tempo real.</p>
 						
-						<h4 class="yellow mb-15">Franquia Normal</h4>
-						<p>É aquela em que o segurado participa do prejuízo, em caso de sinistro, com um valor estabelecido previamente pela seguradora, de acordo com o modelo do veículo. </p>	
+						<p>Proteja seu automóvel em 5 minutos! Você pode economizar tempo e dinheiro, pois pode cotar várias possibilidades, sem sair da comodidade da sua casa, e sem precisar de um intermediário. Basta procurar através de ferramentas de busca, e logo você terá uma serie de opções para cotar o seguro do seu automóvel.</p>	
 						
-						<h4 class="yellow mb-15">Franquia Reduzida</h4>
-						<p>É aquela em que o segurado participa do prejuízo, em caso de sinistro, com um valor 50% menor do que aquele estabelecido pela seguradora como franquia normal.</p>	
-					
-						<h4 class="yellow mb-15">Franquia Majorada</h4>
-						<p>É aquele em que o segurado participa do prejuízo, em caso de sinistro, com um valor 100% maior do que aquele estabelecido pela seguradora como franquia normal.</p>
+						<p>Você quer contratar um seguro para seu carro, mas não sabe por onde começar?<br />
+						Existem várias empresas que, com o avanço da internet oferecem esse tipo de serviço online.<br />
+						Mas antes de contratar um seguro, sempre é recomendado pesquisar e analisar todas as opções de serviço, entre elas, confirmar supostas promoções e checar serviços adicionais, por que você pode conseguir reduzir o valor final do seguro e também de acordo com o perfil do condutor do carro ou mesmo se automóvel será estacionado na rua ou não podem influir no valor final do seguro. <br />
+						A Smartia possui um simulador online que permite que você cote seu seguro em até oito seguradoras diferentes. Simule seu calculo!
+						</p>
 						
-						<h4 class="yellow mb-15">Observações</h4>
-						<p>
-						- O segurado participará com o valor da franquia se, em caso de sinistro, for constatada perda parcial. Nos casos de perda total por roubo, furto, incêndio ou colisão que ultrapasse o valor médio de mercado do veículo em 75%, o segurado fica isento dessa responsabilidade. <br />
-						- Não existe franquia para a garantia de Responsabilidade Civil Facultativa (RCF). <br />
-						- Os valores comerciais do seguro oneram de acordo com o valor da franquia contratada. Se, por exemplo, for contratada a franquia reduzida, o valor final do seguro sofrerá um aumento. Se for contratada a franquia majorada, o valor final do seguro sofrerá uma redução.
-						</p>	
-							
 					</section>
 					
 					<aside class="aside-with-page">

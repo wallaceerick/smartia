@@ -67,14 +67,14 @@
 								<a class="btn btn-primary" href="#">Simule agora seu seguro <b class="right-caret"></b></a>
 							</li>
 							<li class="social">
-								<div class="google">
+								<!-- <div class="google">
 									<g:plusone size="medium" annotation="none"></g:plusone>
 								</div>
 								<div class="facebook">
 									<div class="fb-wrapper">
 										<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="30" data-show-faces="false" data-send="false" data-action="like" data-layout="button_count" data-font="tahoma"></div>
 									</div>
-								</div>
+								</div> -->
 							</li>
 						</ul>
 					</nav>
