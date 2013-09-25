@@ -6,6 +6,9 @@
 		/* max-width: 1000px; */
 	}
 }
+.container {
+	min-width: 1024px;
+}
 body {
 	min-width: 998px;
 	color: #9c9a95;

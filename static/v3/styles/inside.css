@@ -554,13 +554,15 @@ OUR STYLES
         .dicionario-de-segures .filter ol li a.current {
           font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
           font-weight: bold;
-          color: #f6b332; }
-        
+          color: #f6b332; } 
         @media (max-width: 1200px) {
           .dicionario-de-segures .filter ol li {
             margin-right: 15px;
           }
-        }     
+          .dicionario-de-segures form.gray input {
+            width: 96%;
+          }
+        }        
 .dicionario-de-segures .search-result h4 {
   font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -875,9 +877,22 @@ p.alert {
   font-size: 14px;
   color: #676767;
   margin: 25px 0 0 0!important;
-  padding: 0!Important;
+  padding: 0!important;
   line-height: 21px;
   display: block;
 }
 
+.row-in {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.col-md-10-in {
+  width: 83.33333333333334%;
+  float: left;
+}
+.col-md-2-in {
+  width: 16.666666666666664%;
+  float: right;
+}
 

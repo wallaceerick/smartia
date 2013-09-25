@@ -54,7 +54,7 @@
 		
 		<div class="page-title">
 			<div class="container single-page">		
-			<ol class="breadcrumb">
+			<ol class="breadcrumb"> 
 			  <li><a href="#">Home</a></li>
 			  <li><a href="#">Como Funciona</a></li>
 			  <li class="active">Dicionário de Segurês</li>
@@ -74,14 +74,15 @@
 						<h3>Endosso? Sinistro? Terceiro? Se você acha que todos os termos do seguro são “um bicho de sete cabeças”, temos aqui o Dicionário de Segurês para esclarecer todas as suas dúvidas.</h3>
 						
 						<form action="" method="post" class="gray">
-							<div class="row">
-								<div class="col-md-10">
+							<div class="row-in">
+								<div class="col-md-10-in">
 									<input type="text" name="" placeholder="Buscar por termo..." class="with-margin" />
 								</div>
-								<div class="col-md-2">
+								<div class="col-md-2-in">
 									<button class="with-margin">Buscar</button>
 								</div>
 							</div>
+							<span class="clearfix"></span>
 						</form>
 						
 						<div class="filter">
