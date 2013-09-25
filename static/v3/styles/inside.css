@@ -211,6 +211,9 @@ OUR STYLES
     .product-type img.send-icon {
       margin-right: 30px;
       margin-bottom: 100px; }
+    .product-type img.send-icon-msg {
+      margin-right: 30px;
+      margin-bottom: 40px; }
   .product-type h2 {
     font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
