@@ -158,7 +158,7 @@
 					</section>
 					<aside class="aside-with-page">
 						<ul class="aside-links">
-							<li><a href="#">Seguro Online</a></li>
+							<li><a href="seguro-online.php">Seguro Online</a></li>
 							<li><a href="acionando-seu-seguro.php">Acionando seu seguro</a></li>
 							<li><a href="#">FAQ - Perguntas Frequentes</a></li>
 							<li><a class="active last" href="dicionario-de-segures.php">Dicionário do “Segurês”</a></li>

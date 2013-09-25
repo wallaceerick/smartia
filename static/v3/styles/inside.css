@@ -558,8 +558,7 @@ OUR STYLES
           .dicionario-de-segures .filter ol li {
             margin-right: 15px;
           }
-        } 
-
+        }     
 .dicionario-de-segures .search-result h4 {
   font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -580,6 +579,35 @@ OUR STYLES
       margin-bottom: 15px; }
     .dicionario-de-segures .search-result p span.uppercase {
       text-transform: uppercase; }
+
+ 
+.bullet {
+  margin-top: 30px;
+  position: relative;
+  padding-left: 70px;}
+.bullet p {
+  max-width: 625px;}
+.bullet img {
+  margin-bottom: 13px;}
+  span.number {
+    display: block;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    top: -14px;
+    left: 5px;
+    font-size: 24px;
+    background: url('../images/bullet.gif') 0 0 no-repeat;
+  }
+  p.max-size {
+    max-width: 690px;
+  }
 
 /* Páginas Institucionais */
 .institucional .yellow {
