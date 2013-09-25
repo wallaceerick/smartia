@@ -609,6 +609,98 @@ OUR STYLES
     max-width: 690px;
   }
 
+
+
+
+.depoimentos {
+  padding-left: 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e4e4e4; }
+
+.depoimentos blockquote {
+  background-color: #f7b334;
+  border: 1px solid #f7b334;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 0px; }
+
+.depoimentos blockquote span {
+  color: white;
+  font-size: 16px;
+  font-family: Georgia, "Trebuchet MS", Arial; 
+  padding: 0;
+  display: block;
+  font-style: italic;
+  margin: 15px 40px }
+
+.depoimentos blockquote span:before {
+  font-family: Georgia, "Trebuchet MS", Arial; 
+  font-size: 46pt;
+  color: white;
+  font-weight: normal;
+  content: "“";
+  line-height: 46pt;
+  position: absolute;
+  margin-top: -8px;
+  padding: 0;
+  text-indent: 0;
+  margin-left: -33px; }
+
+.ie .depoimentos blockquote span:before {
+  margin-left: -29px; }
+
+.depoimentos blockquote span:after {
+  font-family: Georgia, "Trebuchet MS", Arial; 
+  font-size: 46pt;
+  color: white;
+  font-weight: normal;
+  content: "”";
+  line-height: 46pt;
+  position: absolute;
+  padding: 0;
+  text-indent: 0;
+  margin-left: 8px; }
+
+.depoimentos blockquote .seta {
+  display: block;
+  position: absolute;
+  border-bottom: 0;
+  border-top: 14px solid #f7b334;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  margin-left: 26px; }
+
+.depoimentos figure {
+  padding: 5px 5px 5px 0;
+  padding-top: 20px; }
+
+.depoimentos figcaption {
+  margin-top: 25px; }
+
+.depoimentos figcaption img {
+  border: 2px solid white; }
+
+.depoimentos figcaption .autor {
+  margin-top: 10px;
+  display: block;
+  font-family: "open-sans-n7", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #727070; }
+
+.depoimentos figcaption .localidade { 
+  display: block;
+  font-family: "open-sans-n4", "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666; }
+
+.depoimentos figcaption b {
+  font-size: 17px; }
+
+
 /* Páginas Institucionais */
 .institucional .yellow {
   color: #f6b332 !important; }
@@ -705,3 +797,48 @@ OUR STYLES
   line-height: 15px !important;
   margin: 0;
   padding: 5px 0 0 0 !important; }
+
+.pagination {
+  display: block;
+  float: right;
+  margin-top: 20px;
+}
+.pagination ul {
+  display: table;
+}
+.pagination ul li {
+  list-style: none;
+  float: left;
+}
+.pagination ul li a {
+  display: block;
+  width: 32px;
+  height: 30px;
+  text-align: center;
+  padding-top: 4px;
+  color: #edb03a;
+  border: 1px solid #ddd;
+  border-right: none;
+  text-decoration: none;
+}
+.pagination ul li a.last { 
+  border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  border-right: 1px solid #ddd;
+}
+.pagination ul li a.first { 
+  border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+}
+.pagination ul li a:hover {
+  color: #fff;
+  background: #edb03a; 
+}
+
+
+
+
