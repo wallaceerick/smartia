@@ -3,6 +3,9 @@ OUR STYLES
 */
 
 /* Bradcrumbs */
+.breadcrumb  {
+  background: none;
+}
 .breadcrumb > li {
   font-size: 15px;
   display: inline-block;
