@@ -3,16 +3,6 @@
   "version": "0.0.1",
   "title": "Seguros On-line",
   "homepage": "http://www.smartia.com.br/",
-  "author": {
-    "name": "Wallace Erick",
-    "email": "wallace_erick@hotmail.com",
-    "url": "http://wallaceerick.com.br"
-  },
-  "author": {
-    "name": "Guilherme Ventura",
-    "email": "guilherme.ventura@outlook.com",
-    "url": "http://guilhermeventura.com.br"
-  },
   "description": "Website para a Smartia - Seguros On-line",
   "devDependencies": {
     "grunt": "~0.4.1",

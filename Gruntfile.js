@@ -24,7 +24,7 @@ module.exports = function(grunt){
                     ]
                 },
                 options: {
-                    banner: '/*\n***********************\nSmartia: Application JS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\nAuthor: Wallace Erick / Guilherme Ventura\nAuthor URL: http://www.wallaceerick.com.br/ http://www.guilhermeventura.com.br\n***********************\n*/\n'
+                    banner: '/*\n***********************\nSmartia: Application JS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\n***********************\n*/\n'
                 }
             },
             //Arquivo para o IE
@@ -39,7 +39,7 @@ module.exports = function(grunt){
                     ]
                 },
                 options: {
-                    banner: '/*\n***********************\nSmartia: IE 8 JS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\nAuthor: Wallace Erick / Guilherme Ventura\nAuthor URL: http://www.wallaceerick.com.br/ http://www.guilhermeventura.com.br\n***********************\n*/\n'
+                    banner: '/*\n***********************\nSmartia: IE 8 JS\nLast Update: <%= grunt.template.today("dd-mm-yyyy") %>\n***********************\n*/\n'
                 }
             }
         },
